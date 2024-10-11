@@ -1,0 +1,55 @@
+module:
+  name: claim-UCA6
+  brief: Assurance Case Fragment for Clear MA provided with wrong zone. (UCA6).
+  extends:
+  - module: claim-H2
+    develops:
+      G00006:
+      - G00012
+G00012:
+  text: |-
+    Unsafe Control Action Clear MA provided with wrong zone. (UCA6) 
+     cannot be caused by an attack
+     or the risk is acceptable
+  supportedBy:
+  - S00006
+S00006:
+  text: Substitution
+  supportedBy:
+  - G00013
+  inContextOf:
+  - A00003
+  - C00000
+  - J00003
+J00003:
+  text: Scenarios automatically found using model-checking
+C00000:
+  text: Under current threat model
+A00003:
+  text: Model of CPS behaviour is correct
+G00013:
+  text: All threat scenarios leading to UCA6 are mitigated
+  supportedBy:
+  - S00007
+S00007:
+  text: Decomposition
+  supportedBy:
+  - G00014
+  inContextOf:
+  - J00004
+J00004:
+  text: Each TS is a different way the adversary can cause UCA6
+G00014:
+  text: TS-10 is mitigated
+  supportedBy:
+  - S00008
+S00008:
+  text: Substitution
+  supportedBy:
+  - G00015
+G00015:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 4.329021542399996e-05) 
+     under the current system configuration
+  undeveloped: true

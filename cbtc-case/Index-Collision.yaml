@@ -1,0 +1,42 @@
+module:
+  name: Index-Collision
+  brief: Assurance Case Fragment for Collision.
+G00000:
+  text: |-
+    The system is safe from attacks aimed at causing an accident of type Collision. 
+     The risk of accident Collision being provoked by an attack is acceptable.
+  supportedBy:
+  - S00000
+S00000:
+  text: Concretion.
+  supportedBy:
+  - G00001
+  inContextOf:
+  - J00000
+J00000:
+  text: Disambiguation. Referring to STAMP
+G00001:
+  text: |-
+    The risk of safety-critical attacks aimed at causing hazards related to
+     an accident of type Collision is acceptable.
+  supportedBy:
+  - S00001
+S00001:
+  text: Decomposition
+  supportedBy:
+  - G00002
+  - G00003
+  inContextOf:
+  - A00000
+A00000:
+  text: STAMP identifies all hazards
+G00002:
+  text: |-
+    Adversary cannot cause 'Failure to track zone status.' (H2) 
+     or the risk is acceptable.
+  undeveloped: true
+G00003:
+  text: |-
+    Adversary cannot cause 'Access to a zone is not mutually exclusive.' (H1) 
+     or the risk is acceptable.
+  undeveloped: true

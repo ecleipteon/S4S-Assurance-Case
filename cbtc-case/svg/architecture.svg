@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="gsndiagram" viewBox="0 0 28514 388" xmlns="http://www.w3.org/2000/svg">
+<symbol id="module_icon">
+<rect fill="lightgrey" height="5" stroke="black" stroke-width="1" width="10" x="0" y="0"/>
+<rect fill="lightgrey" height="10" stroke="black" stroke-width="1" width="20" x="0" y="5"/>
+</symbol>
+<symbol id="acp">
+<rect fill="black" height="10" stroke="black" stroke-width="1" width="10" x="0" y="0"/>
+</symbol>
+<marker id="composite_arrow" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="0" refY="4.5">
+<polyline fill-opacity="0" points="0 0, 6 4.5, 0 9" stroke="black" stroke-width="1"/>
+<polyline fill-opacity="0" points="4 0, 10 4.5, 4 9" stroke="black" stroke-width="1"/>
+<polyline fill-opacity="0" points="0 4.5, 10 4.5" stroke="black" stroke-width="1"/>
+</marker>
+<marker id="supportedby_arrow" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="0" refY="4.5">
+<polyline fill="black" points="0 0, 10 4.5, 0 9"/>
+</marker>
+<marker id="incontextof_arrow" markerHeight="9" markerUnits="userSpaceOnUse" markerWidth="10" orient="auto-start-reverse" refX="0" refY="4.5">
+<polyline fill-opacity="0" points="0 0, 10 4.5, 0 9, 0 0" stroke="black" stroke-width="1"/>
+</marker>
+<style type="text/css">
+.notVerified path { fill: red; fill-opacity: 1;}
+/* .notVerified text,a { fill: white; } */
+</style>
+<a href="Index-Collision.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_index_collision">
+<title>Index-Collision</title>
+<path class="border" d="M18943,20 h30 v10 L19181,30 L19181,76 L18943,76 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="18950" y="49">Index-Collision</text>
+<text font-family="Arial" font-size="12" x="18950" y="68">Assurance Case Fragment for Collision.</text>
+</g>
+</a>
+<a href="claim-H1.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_h1">
+<title>claim-H1</title>
+<path class="border" d="M17473,116 h30 v10 L17677,126 L17677,172 L17473,172 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="17480" y="145">claim-H1</text>
+<text font-family="Arial" font-size="12" x="17480" y="164">Assurance Case Fragment for H1.</text>
+</g>
+</a>
+<a href="claim-H2.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_h2">
+<title>claim-H2</title>
+<path class="border" d="M24219,116 h30 v10 L24423,126 L24423,172 L24219,172 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="24226" y="145">claim-H2</text>
+<text font-family="Arial" font-size="12" x="24226" y="164">Assurance Case Fragment for H2.</text>
+</g>
+</a>
+<a href="claim-UCA1.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_uca1">
+<title>claim-UCA1</title>
+<path class="border" d="M12316,212 h30 v10 L12930,222 L12930,268 L12316,268 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="12323" y="241">claim-UCA1</text>
+<text font-family="Arial" font-size="12" x="12323" y="260">Assurance Case Fragment for Authorisation provided with wrong value 'allow' when not required. (UCA1).</text>
+</g>
+</a>
+<a href="claim-UCA4.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_uca4">
+<title>claim-UCA4</title>
+<path class="border" d="M25531,212 h30 v10 L25987,222 L25987,268 L25531,268 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="25538" y="241">claim-UCA4</text>
+<text font-family="Arial" font-size="12" x="25538" y="260">Assurance Case Fragment for Request MA provided with wrong zone. (UCA4).</text>
+</g>
+</a>
+<a href="claim-UCA6.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_uca6">
+<title>claim-UCA6</title>
+<path class="border" d="M26027,212 h30 v10 L26467,222 L26467,268 L26027,268 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="26034" y="241">claim-UCA6</text>
+<text font-family="Arial" font-size="12" x="26034" y="260">Assurance Case Fragment for Clear MA provided with wrong zone. (UCA6).</text>
+</g>
+</a>
+<a href="claim-UCA7.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_uca7">
+<title>claim-UCA7</title>
+<path class="border" d="M26507,212 h30 v10 L26903,222 L26903,268 L26507,268 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="26514" y="241">claim-UCA7</text>
+<text font-family="Arial" font-size="12" x="26514" y="260">Assurance Case Fragment for Clear MA provided too early. (UCA7).</text>
+</g>
+</a>
+<a href="claim-TS-1.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_1">
+<title>claim-TS-1</title>
+<path class="border" d="M20,308 h30 v10 L236,318 L236,364 L20,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="27" y="337">claim-TS-1</text>
+<text font-family="Arial" font-size="12" x="27" y="356">Assurance Case Fragment for TS-1.</text>
+</g>
+</a>
+<a href="claim-TS-10.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_10">
+<title>claim-TS-10</title>
+<path class="border" d="M26136,308 h30 v10 L26358,318 L26358,364 L26136,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="26143" y="337">claim-TS-10</text>
+<text font-family="Arial" font-size="12" x="26143" y="356">Assurance Case Fragment for TS-10.</text>
+</g>
+</a>
+<a href="claim-TS-2.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_2">
+<title>claim-TS-2</title>
+<path class="border" d="M26398,308 h30 v10 L26614,318 L26614,364 L26398,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="26405" y="337">claim-TS-2</text>
+<text font-family="Arial" font-size="12" x="26405" y="356">Assurance Case Fragment for TS-2.</text>
+</g>
+</a>
+<a href="claim-TS-3.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_3">
+<title>claim-TS-3</title>
+<path class="border" d="M26654,308 h30 v10 L26870,318 L26870,364 L26654,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="26661" y="337">claim-TS-3</text>
+<text font-family="Arial" font-size="12" x="26661" y="356">Assurance Case Fragment for TS-3.</text>
+</g>
+</a>
+<a href="claim-TS-4.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_4">
+<title>claim-TS-4</title>
+<path class="border" d="M26910,308 h30 v10 L27126,318 L27126,364 L26910,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="26917" y="337">claim-TS-4</text>
+<text font-family="Arial" font-size="12" x="26917" y="356">Assurance Case Fragment for TS-4.</text>
+</g>
+</a>
+<a href="claim-TS-5.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_5">
+<title>claim-TS-5</title>
+<path class="border" d="M27166,308 h30 v10 L27382,318 L27382,364 L27166,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="27173" y="337">claim-TS-5</text>
+<text font-family="Arial" font-size="12" x="27173" y="356">Assurance Case Fragment for TS-5.</text>
+</g>
+</a>
+<a href="claim-TS-6.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_6">
+<title>claim-TS-6</title>
+<path class="border" d="M27422,308 h30 v10 L27638,318 L27638,364 L27422,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="27429" y="337">claim-TS-6</text>
+<text font-family="Arial" font-size="12" x="27429" y="356">Assurance Case Fragment for TS-6.</text>
+</g>
+</a>
+<a href="claim-TS-7.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_7">
+<title>claim-TS-7</title>
+<path class="border" d="M27678,308 h30 v10 L27894,318 L27894,364 L27678,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="27685" y="337">claim-TS-7</text>
+<text font-family="Arial" font-size="12" x="27685" y="356">Assurance Case Fragment for TS-7.</text>
+</g>
+</a>
+<a href="claim-TS-8.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_8">
+<title>claim-TS-8</title>
+<path class="border" d="M27934,308 h30 v10 L28150,318 L28150,364 L27934,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="27941" y="337">claim-TS-8</text>
+<text font-family="Arial" font-size="12" x="27941" y="356">Assurance Case Fragment for TS-8.</text>
+</g>
+</a>
+<a href="claim-TS-9.svg">
+<g class="gsn_module_ gsnelem gsnmodule" id="node_claim_ts_9">
+<title>claim-TS-9</title>
+<path class="border" d="M28190,308 h30 v10 L28406,318 L28406,364 L28190,364 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="28197" y="337">claim-TS-9</text>
+<text font-family="Arial" font-size="12" x="28197" y="356">Assurance Case Fragment for TS-9.</text>
+</g>
+</a>
+<path class="gsnedge gsninspby" d="M19062,76 C19062,106,17575,96,17575,116" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M19062,76 C19062,106,24321,96,24321,116" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M17575,172 C17575,202,12623,192,12623,212" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M17575,172 C17575,202,25759,192,25759,212" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M24321,172 C24321,202,26247,192,26247,212" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M24321,172 C24321,202,26705,192,26705,212" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M12623,268 C12623,298,128,288,128,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M12623,268 C12623,298,26506,288,26506,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M12623,268 C12623,298,26762,288,26762,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M12623,268 C12623,298,27018,288,27018,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M12623,268 C12623,298,27274,288,27274,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M25759,268 C25759,298,27530,288,27530,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M25759,268 C25759,298,27786,288,27786,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M25759,268 C25759,298,28042,288,28042,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M25759,268 C25759,298,28298,288,28298,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M26247,268 C26247,298,26247,288,26247,308" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+</svg>

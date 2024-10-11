@@ -1,0 +1,36 @@
+module:
+  name: claim-UCA7
+  brief: Assurance Case Fragment for Clear MA provided too early. (UCA7).
+  extends:
+  - module: claim-H2
+    develops:
+      G00007:
+      - G00016
+G00016:
+  text: |-
+    Unsafe Control Action Clear MA provided too early. (UCA7) 
+     cannot be caused by an attack
+     or the risk is acceptable
+  supportedBy:
+  - S00009
+S00009:
+  text: Substitution
+  supportedBy:
+  - G00017
+  inContextOf:
+  - A00004
+  - C00001
+  - J00005
+J00005:
+  text: Scenarios automatically found using model-checking
+C00001:
+  text: Under current threat model
+A00004:
+  text: Model of CPS behaviour is correct
+G00017:
+  text: Could not find threat scenarios leading to UCA7.
+  supportedBy:
+  - Sn00000
+Sn00000:
+  text: Non reachability of UCA7 on model checker (UPPAAL).
+  rankIncrement: 9

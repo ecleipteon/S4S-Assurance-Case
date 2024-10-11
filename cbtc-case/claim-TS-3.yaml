@@ -1,0 +1,48 @@
+module:
+  name: claim-TS-3
+  brief: Assurance Case Fragment for TS-3.
+  extends:
+  - module: claim-UCA1
+    develops:
+      G00033:
+      - G00056
+G00056:
+  text: |-
+    Risk of adversary being in the position of causing TS is acceptable 
+     under the current system configuration
+  supportedBy:
+  - S00038
+S00038:
+  text: Calculation
+  supportedBy:
+  - G00057
+  inContextOf:
+  - A00021
+  - J00015
+A00021:
+  text: Calc. strategy is Bayesian Inference
+J00015:
+  text: Acceptable risk threashold is 0.0001
+G00057:
+  text: |-
+    Spoof (Clear) likelihood 
+     is 4.329021542399996e-05
+  supportedBy:
+  - S00039
+  rankIncrement: 1
+S00039:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00010
+  rankIncrement: 1
+  inContextOf:
+  - A00022
+  - C00013
+A00022:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00013:
+  text: Security assessment carried out.
+Sn00010:
+  text: 'Attack Path Analysis (/path/to/ag). '

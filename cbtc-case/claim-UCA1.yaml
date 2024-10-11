@@ -1,0 +1,133 @@
+module:
+  name: claim-UCA1
+  brief: Assurance Case Fragment for Authorisation provided with wrong value 'allow'
+    when not required. (UCA1).
+  extends:
+  - module: claim-H1
+    develops:
+      G00011:
+      - G00028
+G00028:
+  text: |-
+    Unsafe Control Action Authorisation provided with wrong value 'allow' when not required. (UCA1) 
+     cannot be caused by an attack
+     or the risk is acceptable
+  supportedBy:
+  - S00016
+S00016:
+  text: Substitution
+  supportedBy:
+  - G00029
+  inContextOf:
+  - A00006
+  - C00003
+  - J00008
+J00008:
+  text: Scenarios automatically found using model-checking
+C00003:
+  text: Under current threat model
+A00006:
+  text: Model of CPS behaviour is correct
+G00029:
+  text: All threat scenarios leading to UCA1 are mitigated
+  supportedBy:
+  - S00017
+S00017:
+  text: Decomposition
+  supportedBy:
+  - G00030
+  - G00032
+  - G00034
+  - G00036
+  - G00038
+  - G00040
+  inContextOf:
+  - J00009
+J00009:
+  text: Each TS is a different way the adversary can cause UCA1
+G00030:
+  text: TS-0 is mitigated
+  supportedBy:
+  - S00018
+S00018:
+  text: Substitution
+  supportedBy:
+  - G00031
+G00031:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 0.0007361279999999995) 
+     under the current system configuration
+  undeveloped: true
+  classes:
+  - notVerified
+G00032:
+  text: TS-3 is mitigated
+  supportedBy:
+  - S00019
+S00019:
+  text: Substitution
+  supportedBy:
+  - G00033
+G00033:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 4.329021542399996e-05) 
+     under the current system configuration
+  undeveloped: true
+G00034:
+  text: TS-2 is mitigated
+  supportedBy:
+  - S00020
+S00020:
+  text: Substitution
+  supportedBy:
+  - G00035
+G00035:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 0.0) 
+     under the current system configuration
+  undeveloped: true
+G00036:
+  text: TS-5 is mitigated
+  supportedBy:
+  - S00021
+S00021:
+  text: Substitution
+  supportedBy:
+  - G00037
+G00037:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 0.0) 
+     under the current system configuration
+  undeveloped: true
+G00038:
+  text: TS-1 is mitigated
+  supportedBy:
+  - S00022
+S00022:
+  text: Substitution
+  supportedBy:
+  - G00039
+G00039:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 2.337671632895998e-05) 
+     under the current system configuration
+  undeveloped: true
+G00040:
+  text: TS-4 is mitigated
+  supportedBy:
+  - S00023
+S00023:
+  text: Substitution
+  supportedBy:
+  - G00041
+G00041:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 4.329021542399996e-05) 
+     under the current system configuration
+  undeveloped: true

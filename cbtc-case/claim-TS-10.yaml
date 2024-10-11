@@ -1,0 +1,72 @@
+module:
+  name: claim-TS-10
+  brief: Assurance Case Fragment for TS-10.
+  extends:
+  - module: claim-UCA6
+    develops:
+      G00015:
+      - G00042
+G00042:
+  text: |-
+    Risk of adversary being in the position of causing TS is acceptable 
+     under the current system configuration
+  supportedBy:
+  - S00024
+S00024:
+  text: Calculation
+  supportedBy:
+  - G00043
+  - G00044
+  inContextOf:
+  - A00007
+  - J00010
+A00007:
+  text: Calc. strategy is Bayesian Inference
+J00010:
+  text: Acceptable risk threashold is 0.0001
+G00043:
+  text: |-
+    Tamper (Clear) likelihood 
+     is 4.329021542399996e-05
+  supportedBy:
+  - S00025
+  rankIncrement: 1
+S00025:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00001
+  rankIncrement: 1
+  inContextOf:
+  - A00008
+  - C00004
+A00008:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00004:
+  text: Security assessment carried out.
+Sn00001:
+  text: 'Attack Path Analysis (/path/to/ag). '
+G00044:
+  text: |-
+    Read (Clear) likelihood 
+     is 4.329021542399996e-05
+  supportedBy:
+  - S00026
+  rankIncrement: 1
+S00026:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00002
+  rankIncrement: 1
+  inContextOf:
+  - A00009
+  - C00005
+A00009:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00005:
+  text: Security assessment carried out.
+Sn00002:
+  text: 'Attack Path Analysis (/path/to/ag). '

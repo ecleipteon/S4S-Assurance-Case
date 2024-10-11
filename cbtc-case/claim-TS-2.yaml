@@ -1,0 +1,72 @@
+module:
+  name: claim-TS-2
+  brief: Assurance Case Fragment for TS-2.
+  extends:
+  - module: claim-UCA1
+    develops:
+      G00035:
+      - G00058
+G00058:
+  text: |-
+    Risk of adversary being in the position of causing TS is acceptable 
+     under the current system configuration
+  supportedBy:
+  - S00040
+S00040:
+  text: Calculation
+  supportedBy:
+  - G00059
+  - G00060
+  inContextOf:
+  - A00023
+  - J00016
+A00023:
+  text: Calc. strategy is Bayesian Inference
+J00016:
+  text: Acceptable risk threashold is 0.0001
+G00059:
+  text: |-
+    Spoof (GNSS Loc) likelihood 
+     is 0.0
+  supportedBy:
+  - S00041
+  rankIncrement: 1
+S00041:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00011
+  rankIncrement: 1
+  inContextOf:
+  - A00024
+  - C00014
+A00024:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00014:
+  text: Security assessment carried out.
+Sn00011:
+  text: 'Attack Path Analysis (/path/to/ag). '
+G00060:
+  text: |-
+    Disrupt (RTK 2 Loc) likelihood 
+     is 0.0
+  supportedBy:
+  - S00042
+  rankIncrement: 1
+S00042:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00012
+  rankIncrement: 1
+  inContextOf:
+  - A00025
+  - C00015
+A00025:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00015:
+  text: Security assessment carried out.
+Sn00012:
+  text: 'Attack Path Analysis (/path/to/ag). '

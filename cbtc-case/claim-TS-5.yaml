@@ -1,0 +1,48 @@
+module:
+  name: claim-TS-5
+  brief: Assurance Case Fragment for TS-5.
+  extends:
+  - module: claim-UCA1
+    develops:
+      G00037:
+      - G00061
+G00061:
+  text: |-
+    Risk of adversary being in the position of causing TS is acceptable 
+     under the current system configuration
+  supportedBy:
+  - S00043
+S00043:
+  text: Calculation
+  supportedBy:
+  - G00062
+  inContextOf:
+  - A00026
+  - J00017
+A00026:
+  text: Calc. strategy is Bayesian Inference
+J00017:
+  text: Acceptable risk threashold is 0.0001
+G00062:
+  text: |-
+    Tamper (LU.GNSSPosition) likelihood 
+     is 0.0
+  supportedBy:
+  - S00044
+  rankIncrement: 1
+S00044:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00013
+  rankIncrement: 1
+  inContextOf:
+  - A00027
+  - C00016
+A00027:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00016:
+  text: Security assessment carried out.
+Sn00013:
+  text: 'Attack Path Analysis (/path/to/ag). '

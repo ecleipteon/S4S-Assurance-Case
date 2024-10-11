@@ -1,0 +1,47 @@
+module:
+  name: claim-H2
+  brief: Assurance Case Fragment for H2.
+  extends:
+  - module: Index-Collision
+    develops:
+      G00002:
+      - G00004
+G00004:
+  text: |-
+    The risk of hazard H2 being 
+     caused by an attack is acceptable
+  supportedBy:
+  - S00002
+S00002:
+  text: Substitution
+  supportedBy:
+  - G00005
+  inContextOf:
+  - J00001
+J00001:
+  text: In STPA hazards are caused by Unsafe Control Actions (UCA)
+G00005:
+  text: |-
+    The risk of an adversary being able to cause
+     Unsafe Control Actions is acceptable
+  supportedBy:
+  - S00003
+S00003:
+  text: Decomposition
+  supportedBy:
+  - G00006
+  - G00007
+  inContextOf:
+  - A00001
+A00001:
+  text: STPA finds all UCA
+G00006:
+  text: |-
+    Risk of attacker causing 'Clear MA provided with wrong zone.' (UCA6) 
+     leading to H2 is acceptable
+  undeveloped: true
+G00007:
+  text: |-
+    Risk of attacker causing 'Clear MA provided too early.' (UCA7) 
+     leading to H2 is acceptable
+  undeveloped: true

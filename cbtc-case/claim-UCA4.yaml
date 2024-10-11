@@ -1,0 +1,100 @@
+module:
+  name: claim-UCA4
+  brief: Assurance Case Fragment for Request MA provided with wrong zone. (UCA4).
+  extends:
+  - module: claim-H1
+    develops:
+      G00010:
+      - G00018
+G00018:
+  text: |-
+    Unsafe Control Action Request MA provided with wrong zone. (UCA4) 
+     cannot be caused by an attack
+     or the risk is acceptable
+  supportedBy:
+  - S00010
+S00010:
+  text: Substitution
+  supportedBy:
+  - G00019
+  inContextOf:
+  - A00005
+  - C00002
+  - J00006
+J00006:
+  text: Scenarios automatically found using model-checking
+C00002:
+  text: Under current threat model
+A00005:
+  text: Model of CPS behaviour is correct
+G00019:
+  text: All threat scenarios leading to UCA4 are mitigated
+  supportedBy:
+  - S00011
+S00011:
+  text: Decomposition
+  supportedBy:
+  - G00020
+  - G00022
+  - G00024
+  - G00026
+  inContextOf:
+  - J00007
+J00007:
+  text: Each TS is a different way the adversary can cause UCA4
+G00020:
+  text: TS-7 is mitigated
+  supportedBy:
+  - S00012
+S00012:
+  text: Substitution
+  supportedBy:
+  - G00021
+G00021:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 2.337671632895998e-05) 
+     under the current system configuration
+  undeveloped: true
+G00022:
+  text: TS-9 is mitigated
+  supportedBy:
+  - S00013
+S00013:
+  text: Substitution
+  supportedBy:
+  - G00023
+G00023:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 4.329021542399996e-05) 
+     under the current system configuration
+  undeveloped: true
+G00024:
+  text: TS-8 is mitigated
+  supportedBy:
+  - S00014
+S00014:
+  text: Substitution
+  supportedBy:
+  - G00025
+G00025:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 0.0) 
+     under the current system configuration
+  undeveloped: true
+G00026:
+  text: TS-6 is mitigated
+  supportedBy:
+  - S00015
+S00015:
+  text: Substitution
+  supportedBy:
+  - G00027
+G00027:
+  text: |-
+    Threat scenario is exploitable within 
+     acceptable risk (Computed likelihood = 4.329021542399996e-05) 
+     under the current system configuration
+  undeveloped: true

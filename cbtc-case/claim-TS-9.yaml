@@ -1,0 +1,48 @@
+module:
+  name: claim-TS-9
+  brief: Assurance Case Fragment for TS-9.
+  extends:
+  - module: claim-UCA4
+    develops:
+      G00023:
+      - G00048
+G00048:
+  text: |-
+    Risk of adversary being in the position of causing TS is acceptable 
+     under the current system configuration
+  supportedBy:
+  - S00030
+S00030:
+  text: Calculation
+  supportedBy:
+  - G00049
+  inContextOf:
+  - A00013
+  - J00012
+A00013:
+  text: Calc. strategy is Bayesian Inference
+J00012:
+  text: Acceptable risk threashold is 0.0001
+G00049:
+  text: |-
+    Disrupt (MA) likelihood 
+     is 4.329021542399996e-05
+  supportedBy:
+  - S00031
+  rankIncrement: 1
+S00031:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00005
+  rankIncrement: 1
+  inContextOf:
+  - A00014
+  - C00008
+A00014:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00008:
+  text: Security assessment carried out.
+Sn00005:
+  text: 'Attack Path Analysis (/path/to/ag). '
