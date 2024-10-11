@@ -541,11 +541,10 @@
 </g>
 <g class="gsn_module_claim_uca4 gsnelem gsngoal" id="node_g00025">
 <title>G00025</title>
-<path class="border" d="M4184,1739 L4452,1739 L4452,1813 L4184,1813 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="4191" y="1758">G00025</text>
-<text font-family="Arial" font-size="12" x="4191" y="1777">Threat scenario is exploitable within </text>
-<text font-family="Arial" font-size="12" x="4191" y="1791"> acceptable risk (Computed likelihood = 0.0) </text>
-<text font-family="Arial" font-size="12" x="4191" y="1805"> under the current system configuration</text>
+<path class="border" d="M4213,1746 L4423,1746 L4423,1806 L4213,1806 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="4220" y="1765">G00025</text>
+<text font-family="Arial" font-size="12" x="4220" y="1784">Scenario TS-8 is not exploitable </text>
+<text font-family="Arial" font-size="12" x="4220" y="1798"> in the current system configuration</text>
 </g>
 <g class="gsn_module_claim_uca4 gsnelem gsngoal" id="node_g00027">
 <title>G00027</title>
@@ -574,19 +573,17 @@
 </g>
 <g class="gsn_module_claim_uca1 gsnelem gsngoal" id="node_g00035">
 <title>G00035</title>
-<path class="border" d="M7794,1739 L8062,1739 L8062,1813 L7794,1813 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="7801" y="1758">G00035</text>
-<text font-family="Arial" font-size="12" x="7801" y="1777">Threat scenario is exploitable within </text>
-<text font-family="Arial" font-size="12" x="7801" y="1791"> acceptable risk (Computed likelihood = 0.0) </text>
-<text font-family="Arial" font-size="12" x="7801" y="1805"> under the current system configuration</text>
+<path class="border" d="M7823,1746 L8033,1746 L8033,1806 L7823,1806 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="7830" y="1765">G00035</text>
+<text font-family="Arial" font-size="12" x="7830" y="1784">Scenario TS-2 is not exploitable </text>
+<text font-family="Arial" font-size="12" x="7830" y="1798"> in the current system configuration</text>
 </g>
 <g class="gsn_module_claim_uca1 gsnelem gsngoal" id="node_g00037">
 <title>G00037</title>
-<path class="border" d="M8877,1739 L9145,1739 L9145,1813 L8877,1813 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="8884" y="1758">G00037</text>
-<text font-family="Arial" font-size="12" x="8884" y="1777">Threat scenario is exploitable within </text>
-<text font-family="Arial" font-size="12" x="8884" y="1791"> acceptable risk (Computed likelihood = 0.0) </text>
-<text font-family="Arial" font-size="12" x="8884" y="1805"> under the current system configuration</text>
+<path class="border" d="M8906,1746 L9116,1746 L9116,1806 L8906,1806 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="8913" y="1765">G00037</text>
+<text font-family="Arial" font-size="12" x="8913" y="1784">Scenario TS-5 is not exploitable </text>
+<text font-family="Arial" font-size="12" x="8913" y="1798"> in the current system configuration</text>
 </g>
 <g class="gsn_module_claim_uca1 gsnelem gsngoal" id="node_g00039">
 <title>G00039</title>
@@ -1466,7 +1463,7 @@
 <path class="gsnedge gsninspby" d="M3235,1610 C3235,1640,3235,1620,3235,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M3235,1813 C3235,1843,3235,1826,3235,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M4318,1610 C4318,1640,4318,1620,4318,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M4318,1813 C4318,1843,4318,1826,4318,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M4318,1806 C4318,1836,4318,1826,4318,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M5762,1610 C5762,1640,5762,1620,5762,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M5762,1813 C5762,1843,5762,1826,5762,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M14204,1118 C14204,1148,14204,1192,14204,1212" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
@@ -1475,9 +1472,9 @@
 <path class="gsnedge gsninspby" d="M6845,1610 C6845,1640,6845,1620,6845,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M6845,1813 C6845,1843,6845,1826,6845,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M7928,1610 C7928,1640,7928,1620,7928,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M7928,1813 C7928,1843,7928,1826,7928,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M7928,1806 C7928,1836,7928,1826,7928,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M9011,1610 C9011,1640,9011,1620,9011,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M9011,1813 C9011,1843,9011,1826,9011,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M9011,1806 C9011,1836,9011,1826,9011,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M10094,1610 C10094,1640,10094,1620,10094,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M10094,1813 C10094,1843,10094,1826,10094,1846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M11538,1610 C11538,1640,11538,1620,11538,1640" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
@@ -1546,7 +1543,7 @@
 <path class="gsnedge gsninspby" d="M13334,1514 C13334,1544,5762,1534,5762,1554" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M2152,1696 C2152,1726,2152,1709,2152,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M3235,1696 C3235,1726,3235,1709,3235,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M4318,1696 C4318,1726,4318,1709,4318,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M4318,1696 C4318,1726,4318,1716,4318,1736" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M5762,1696 C5762,1726,5762,1709,5762,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M14271,1245 C14301,1245,14353,1191,14373,1191" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M14137,1245 C14107,1245,14127,1245,14107,1245" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
@@ -1561,8 +1558,8 @@
 <path class="gsnedge gsninspby" d="M14204,1514 C14204,1544,11538,1534,11538,1554" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M6193,1696 C6193,1726,6193,1706,6193,1726" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M6845,1696 C6845,1726,6845,1709,6845,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M7928,1696 C7928,1726,7928,1709,7928,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M9011,1696 C9011,1726,9011,1709,9011,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M7928,1696 C7928,1726,7928,1716,7928,1736" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M9011,1696 C9011,1726,9011,1716,9011,1736" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M10094,1696 C10094,1726,10094,1709,10094,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M11538,1696 C11538,1726,11538,1709,11538,1729" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M775,1989 C805,1989,785,1989,805,1989" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>

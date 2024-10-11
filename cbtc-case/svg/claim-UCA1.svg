@@ -180,19 +180,17 @@
 </g>
 <g class="gsn_module_claim_uca1 gsnelem gsngoal" id="node_g00035">
 <title>G00035</title>
-<path class="border" d="M949,849 L1217,849 L1217,923 L949,923 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="956" y="868">G00035</text>
-<text font-family="Arial" font-size="12" x="956" y="887">Threat scenario is exploitable within </text>
-<text font-family="Arial" font-size="12" x="956" y="901"> acceptable risk (Computed likelihood = 0.0) </text>
-<text font-family="Arial" font-size="12" x="956" y="915"> under the current system configuration</text>
+<path class="border" d="M978,856 L1188,856 L1188,916 L978,916 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="985" y="875">G00035</text>
+<text font-family="Arial" font-size="12" x="985" y="894">Scenario TS-2 is not exploitable </text>
+<text font-family="Arial" font-size="12" x="985" y="908"> in the current system configuration</text>
 </g>
 <g class="gsn_module_claim_uca1 gsnelem gsngoal" id="node_g00037">
 <title>G00037</title>
-<path class="border" d="M1385,849 L1653,849 L1653,923 L1385,923 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="1392" y="868">G00037</text>
-<text font-family="Arial" font-size="12" x="1392" y="887">Threat scenario is exploitable within </text>
-<text font-family="Arial" font-size="12" x="1392" y="901"> acceptable risk (Computed likelihood = 0.0) </text>
-<text font-family="Arial" font-size="12" x="1392" y="915"> under the current system configuration</text>
+<path class="border" d="M1414,856 L1624,856 L1624,916 L1414,916 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="1421" y="875">G00037</text>
+<text font-family="Arial" font-size="12" x="1421" y="894">Scenario TS-5 is not exploitable </text>
+<text font-family="Arial" font-size="12" x="1421" y="908"> in the current system configuration</text>
 </g>
 <g class="gsn_module_claim_uca1 gsnelem gsngoal" id="node_g00039">
 <title>G00039</title>
@@ -287,9 +285,9 @@
 <path class="gsnedge gsninspby" d="M647,720 C647,750,647,730,647,750" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M647,923 C647,953,647,936,647,956" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M1083,720 C1083,750,1083,730,1083,750" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M1083,923 C1083,953,1083,936,1083,956" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M1083,916 C1083,946,1083,936,1083,956" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M1519,720 C1519,750,1519,730,1519,750" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M1519,923 C1519,953,1519,936,1519,956" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M1519,916 C1519,946,1519,936,1519,956" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M1955,720 C1955,750,1955,730,1955,750" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M1955,923 C1955,953,1955,936,1955,956" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M2391,720 C2391,750,2391,730,2391,750" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
@@ -307,14 +305,14 @@
 <path class="gsnedge gsninspby" d="M1303,624 C1303,654,2391,644,2391,664" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M216,806 C216,836,216,816,216,836" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M647,806 C647,836,647,819,647,839" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M1083,806 C1083,836,1083,819,1083,839" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M1519,806 C1519,836,1519,819,1519,839" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M1083,806 C1083,836,1083,826,1083,846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M1519,806 C1519,836,1519,826,1519,846" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M1955,806 C1955,836,1955,819,1955,839" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M2391,806 C2391,836,2391,819,2391,839" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <g class="gsnmodule" id="node_gsn_module">
 <title>Module Information</title>
 <text font-family="Arial" font-size="12" x="2168" y="1121">Module: claim-UCA1</text>
 <text font-family="Arial" font-size="12" x="2168" y="1135">Assurance Case Fragment for Authorisation provided with wrong value 'allow' when not required. (UCA1).</text>
-<text font-family="Arial" font-size="12" x="2168" y="1149">Generated on: 2024-10-10T15:22:58.887422000Z</text>
+<text font-family="Arial" font-size="12" x="2168" y="1149">Generated on: 2024-10-11T17:38:18.207803000Z</text>
 </g>
 </svg>

@@ -85,9 +85,8 @@ S00020:
   - G00035
 G00035:
   text: |-
-    Threat scenario is exploitable within 
-     acceptable risk (Computed likelihood = 0.0) 
-     under the current system configuration
+    Scenario TS-2 is not exploitable 
+     in the current system configuration
   undeveloped: true
 G00036:
   text: TS-5 is mitigated
@@ -99,9 +98,8 @@ S00021:
   - G00037
 G00037:
   text: |-
-    Threat scenario is exploitable within 
-     acceptable risk (Computed likelihood = 0.0) 
-     under the current system configuration
+    Scenario TS-5 is not exploitable 
+     in the current system configuration
   undeveloped: true
 G00038:
   text: TS-1 is mitigated

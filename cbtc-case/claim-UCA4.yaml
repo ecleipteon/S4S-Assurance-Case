@@ -80,9 +80,8 @@ S00014:
   - G00025
 G00025:
   text: |-
-    Threat scenario is exploitable within 
-     acceptable risk (Computed likelihood = 0.0) 
-     under the current system configuration
+    Scenario TS-8 is not exploitable 
+     in the current system configuration
   undeveloped: true
 G00026:
   text: TS-6 is mitigated
