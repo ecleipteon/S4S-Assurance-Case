@@ -10,7 +10,7 @@ G00018:
   text: |-
     Unsafe Control Action Request MA provided with wrong zone. (UCA4) 
      cannot be caused by an attack
-     or the risk is acceptable
+     or the likelihood is acceptable
   supportedBy:
   - S00010
 S00010:
@@ -28,7 +28,9 @@ C00002:
 A00005:
   text: Model of CPS behaviour is correct
 G00019:
-  text: All threat scenarios leading to UCA4 are mitigated
+  text: |-
+    All potential threat scenarios leading to UCA4 
+     have been identified and are mitigated
   supportedBy:
   - S00011
 S00011:
@@ -54,7 +56,8 @@ G00021:
   text: |-
     Threat scenario is exploitable within 
      acceptable risk (Computed likelihood = 2.337671632895998e-05) 
-     under the current system configuration
+     under the current system configuration 
+     as per attack path analysis
   undeveloped: true
 G00022:
   text: TS-9 is mitigated
@@ -68,7 +71,8 @@ G00023:
   text: |-
     Threat scenario is exploitable within 
      acceptable risk (Computed likelihood = 4.329021542399996e-05) 
-     under the current system configuration
+     under the current system configuration 
+     as per attack path analysis
   undeveloped: true
 G00024:
   text: TS-8 is mitigated
@@ -81,7 +85,8 @@ S00014:
 G00025:
   text: |-
     Scenario TS-8 is not exploitable 
-     in the current system configuration
+     in the current system configuration 
+     as per attack path analysis
   undeveloped: true
 G00026:
   text: TS-6 is mitigated
@@ -95,5 +100,6 @@ G00027:
   text: |-
     Threat scenario is exploitable within 
      acceptable risk (Computed likelihood = 4.329021542399996e-05) 
-     under the current system configuration
+     under the current system configuration 
+     as per attack path analysis
   undeveloped: true

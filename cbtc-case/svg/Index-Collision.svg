@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="gsndiagram" viewBox="0 0 1067 734" xmlns="http://www.w3.org/2000/svg">
+<svg class="gsndiagram" viewBox="0 0 1160 753" xmlns="http://www.w3.org/2000/svg">
 <symbol id="module_icon">
 <rect fill="lightgrey" height="5" stroke="black" stroke-width="1" width="10" x="0" y="0"/>
 <rect fill="lightgrey" height="10" stroke="black" stroke-width="1" width="20" x="0" y="5"/>
@@ -24,99 +24,100 @@
 </style>
 <g class="gsn_module_index_collision gsnelem gsngoal" id="node_g00000">
 <title>G00000</title>
-<path class="border" d="M179,20 L647,20 L647,80 L179,80 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="186" y="39">G00000</text>
-<text font-family="Arial" font-size="12" x="186" y="58">The system is safe from attacks aimed at causing an accident of type Collision. </text>
-<text font-family="Arial" font-size="12" x="186" y="72"> The risk of accident Collision being provoked by an attack is acceptable.</text>
+<path class="border" d="M83,20 L801,20 L801,66 L83,66 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="90" y="39">G00000</text>
+<text font-family="Arial" font-size="12" x="90" y="58">The system can operate within acceptable risk with respect to the specific accident Collision being caused by an adversary.</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsnstgy" id="node_s00000">
 <title>S00000</title>
-<path class="border" d="M353,130 L487,130 L473,176 L339,176 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="361" y="149">S00000</text>
-<text font-family="Arial" font-size="12" x="357" y="168">Concretion.</text>
+<path class="border" d="M382,126 L516,126 L502,172 L368,172 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="390" y="145">S00000</text>
+<text font-family="Arial" font-size="12" x="386" y="164">Substitution.</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsnjust" id="node_j00000">
 <title>J00000</title>
-<path class="border" d="M520,153 a151,33,0,1,0,303,0 a151,33,0,1,0,-303,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="570" y="144">J00000</text>
-<text font-family="Arial" font-size="12" x="570" y="163">Disambiguation. Referring to STAMP</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="817" y="181">J</text>
+<path class="border" d="M549,149 a91,43,0,1,0,183,0 a91,43,0,1,0,-183,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="582" y="133">J00000</text>
+<text font-family="Arial" font-size="12" x="582" y="152">Disambiguation. </text>
+<text font-family="Arial" font-size="12" x="582" y="166"> Referring to STAMP.</text>
+<text font-family="Arial" font-size="12" font-weight="bold" x="726" y="187">J</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsngoal" id="node_g00001">
 <title>G00001</title>
-<path class="border" d="M211,226 L615,226 L615,286 L211,286 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="218" y="245">G00001</text>
-<text font-family="Arial" font-size="12" x="218" y="264">The risk of safety-critical attacks aimed at causing hazards related to</text>
-<text font-family="Arial" font-size="12" x="218" y="278"> an accident of type Collision is acceptable.</text>
+<path class="border" d="M184,232 L700,232 L700,306 L184,306 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="191" y="251">G00001</text>
+<text font-family="Arial" font-size="12" x="191" y="270">All potential hazards leading to Collision</text>
+<text font-family="Arial" font-size="12" x="191" y="284">                                                 have been identified with STAMP and the likelihood </text>
+<text font-family="Arial" font-size="12" x="191" y="298">                                                 of an attacker being able to cause them is acceptable.</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsnstgy" id="node_s00001">
 <title>S00001</title>
-<path class="border" d="M353,336 L487,336 L473,382 L339,382 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="361" y="355">S00001</text>
-<text font-family="Arial" font-size="12" x="357" y="374">Decomposition</text>
+<path class="border" d="M382,356 L516,356 L502,402 L368,402 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="390" y="375">S00001</text>
+<text font-family="Arial" font-size="12" x="386" y="394">Decomposition</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsnasmp" id="node_a00000">
 <title>A00000</title>
-<path class="border" d="M520,359 a121,33,0,1,0,242,0 a121,33,0,1,0,-242,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="562" y="350">A00000</text>
-<text font-family="Arial" font-size="12" x="562" y="369">STAMP identifies all hazards</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="757" y="387">A</text>
+<path class="border" d="M549,379 a121,33,0,1,0,242,0 a121,33,0,1,0,-242,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="591" y="370">A00000</text>
+<text font-family="Arial" font-size="12" x="591" y="389">STAMP identifies all hazards</text>
+<text font-family="Arial" font-size="12" font-weight="bold" x="786" y="407">A</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsngoal" id="node_g00002">
 <title>G00002</title>
-<path class="border" d="M20,432 L372,432 L372,492 L20,492 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="27" y="451">G00002</text>
-<text font-family="Arial" font-size="12" x="27" y="470">Adversary cannot cause 'Failure to track zone status.' (H2) </text>
-<text font-family="Arial" font-size="12" x="27" y="484"> or the risk is acceptable.</text>
+<path class="border" d="M45,452 L397,452 L397,512 L45,512 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="52" y="471">G00002</text>
+<text font-family="Arial" font-size="12" x="52" y="490">Adversary cannot cause 'Failure to track zone status.' (H2) </text>
+<text font-family="Arial" font-size="12" x="52" y="504"> or the likelihood is acceptable.</text>
 </g>
 <g class="gsn_module_index_collision gsnelem gsngoal" id="node_g00003">
 <title>G00003</title>
-<path class="border" d="M412,432 L848,432 L848,492 L412,492 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="419" y="451">G00003</text>
-<text font-family="Arial" font-size="12" x="419" y="470">Adversary cannot cause 'Access to a zone is not mutually exclusive.' (H1) </text>
-<text font-family="Arial" font-size="12" x="419" y="484"> or the risk is acceptable.</text>
+<path class="border" d="M445,452 L881,452 L881,512 L445,512 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="452" y="471">G00003</text>
+<text font-family="Arial" font-size="12" x="452" y="490">Adversary cannot cause 'Access to a zone is not mutually exclusive.' (H1) </text>
+<text font-family="Arial" font-size="12" x="452" y="504"> or the likelihood is acceptable.</text>
 </g>
 <a href="claim-H2.svg#node_g00004">
 <g class="gsn_module_claim_h2 gsnelem gsnawaygoal" id="node_g00004">
 <title>G00004</title>
-<path class="border" d="M93,598 V532 H299 V598" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="100" y="551">G00004</text>
-<text font-family="Arial" font-size="12" x="100" y="570">The risk of hazard H2 being </text>
-<text font-family="Arial" font-size="12" x="100" y="584"> caused by an attack is acceptable</text>
+<path class="border" d="M20,618 V552 H422 V618" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="27" y="571">G00004</text>
+<text font-family="Arial" font-size="12" x="27" y="590">The likelihood of an adversary being able to cause H2 is acceptable </text>
+<text font-family="Arial" font-size="12" x="27" y="604"> or H2 cannot be caused by an adversary.</text>
 <a href="claim-H2.svg#node_g00004">
-<path class="border" d="M93,598 h206 v28 h-206 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="127" y="619">claim-H2</text>
+<path class="border" d="M20,618 h403 v28 h-403 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="54" y="639">claim-H2</text>
 </a>
-<use href="#module_icon" x="100" y="605"/>
+<use href="#module_icon" x="27" y="625"/>
 </g>
 </a>
 <a href="claim-H1.svg#node_g00008">
 <g class="gsn_module_claim_h1 gsnelem gsnawaygoal" id="node_g00008">
 <title>G00008</title>
-<path class="border" d="M527,598 V532 H733 V598" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="534" y="551">G00008</text>
-<text font-family="Arial" font-size="12" x="534" y="570">The risk of hazard H1 being </text>
-<text font-family="Arial" font-size="12" x="534" y="584"> caused by an attack is acceptable</text>
+<path class="border" d="M462,618 V552 H864 V618" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="469" y="571">G00008</text>
+<text font-family="Arial" font-size="12" x="469" y="590">The likelihood of an adversary being able to cause H1 is acceptable </text>
+<text font-family="Arial" font-size="12" x="469" y="604"> or H1 cannot be caused by an adversary.</text>
 <a href="claim-H1.svg#node_g00008">
-<path class="border" d="M527,598 h206 v28 h-206 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="561" y="619">claim-H1</text>
+<path class="border" d="M462,618 h403 v28 h-403 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="496" y="639">claim-H1</text>
 </a>
-<use href="#module_icon" x="534" y="605"/>
+<use href="#module_icon" x="469" y="625"/>
 </g>
 </a>
-<path class="gsnedge gsninspby" d="M413,80 C413,110,413,100,413,120" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M413,286 C413,316,413,306,413,326" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M196,492 C196,522,196,502,196,522" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M630,492 C630,522,630,502,630,522" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M480,153 C510,153,490,153,510,153" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M413,176 C413,206,413,196,413,216" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M480,359 C510,359,490,359,510,359" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M413,382 C413,412,196,402,196,422" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M413,382 C413,412,630,402,630,422" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M442,66 C442,96,442,96,442,116" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M442,306 C442,336,442,326,442,346" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M221,512 C221,542,221,522,221,542" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M663,512 C663,542,663,522,663,542" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M509,149 C539,149,519,149,539,149" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M442,172 C442,202,442,202,442,222" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M509,379 C539,379,519,379,539,379" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M442,402 C442,432,221,422,221,442" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M442,402 C442,432,663,422,663,442" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <g class="gsnmodule" id="node_gsn_module">
 <title>Module Information</title>
-<text font-family="Arial" font-size="12" x="773" y="686">Module: Index-Collision</text>
-<text font-family="Arial" font-size="12" x="773" y="700">Assurance Case Fragment for Collision.</text>
-<text font-family="Arial" font-size="12" x="773" y="714">Generated on: 2024-10-11T17:38:17.841691000Z</text>
+<text font-family="Arial" font-size="12" x="865" y="705">Module: Index-Collision</text>
+<text font-family="Arial" font-size="12" x="865" y="719">Assurance Case Fragment for Collision.</text>
+<text font-family="Arial" font-size="12" x="865" y="733">Generated on: 2024-10-31T13:04:20.537218000Z</text>
 </g>
 </svg>

@@ -5,68 +5,68 @@ module:
   - module: claim-UCA1
     develops:
       G00039:
-      - G00063
-G00063:
+      - G00061
+G00061:
   text: |-
     Risk of adversary being in the position of causing TS is acceptable 
      under the current system configuration
   supportedBy:
-  - S00045
-S00045:
+  - S00043
+S00043:
   text: Calculation
   supportedBy:
-  - G00064
-  - G00065
+  - G00062
+  - G00063
   inContextOf:
-  - A00028
-  - J00018
-A00028:
+  - A00023
+  - J00021
+A00023:
   text: Calc. strategy is Bayesian Inference
-J00018:
+J00021:
   text: Acceptable risk threashold is 0.0001
-G00064:
+G00062:
   text: |-
     Disrupt (RTK Loc) likelihood 
      is 2.337671632895998e-05
   supportedBy:
-  - S00046
+  - S00044
   rankIncrement: 1
-S00046:
+S00044:
   text: Evidence Incorporation
   supportedBy:
-  - Sn00014
+  - Sn00012
   rankIncrement: 1
   inContextOf:
-  - A00029
-  - C00017
-A00029:
+  - A00024
+  - C00015
+A00024:
   text: |-
     Computer network is known. 
      No 0-days vulnerabilities.
-C00017:
+C00015:
   text: Security assessment carried out.
-Sn00014:
+Sn00012:
   text: 'Attack Path Analysis (/path/to/ag). '
-G00065:
+G00063:
   text: |-
     Spoof (GNSS Loc) likelihood 
      is 0.6000173160861696
   supportedBy:
-  - S00047
+  - S00045
   rankIncrement: 1
-S00047:
+S00045:
   text: Evidence Incorporation
   supportedBy:
-  - Sn00015
+  - Sn00013
   rankIncrement: 1
   inContextOf:
-  - A00030
-  - C00018
-A00030:
+  - A00025
+  - C00016
+A00025:
   text: |-
     Computer network is known. 
      No 0-days vulnerabilities.
-C00018:
+C00016:
   text: Security assessment carried out.
-Sn00015:
+Sn00013:
   text: 'Attack Path Analysis (/path/to/ag). '

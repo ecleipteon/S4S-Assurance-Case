@@ -28,7 +28,7 @@
 <path class="border" d="M267,86 V20 H619 V86" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="274" y="39">G00002</text>
 <text font-family="Arial" font-size="12" x="274" y="58">Adversary cannot cause 'Failure to track zone status.' (H2) </text>
-<text font-family="Arial" font-size="12" x="274" y="72"> or the risk is acceptable.</text>
+<text font-family="Arial" font-size="12" x="274" y="72"> or the likelihood is acceptable.</text>
 <a href="Index-Collision.svg#node_g00002">
 <path class="border" d="M267,86 h352 v28 h-352 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="301" y="107">Index-Collision</text>
@@ -38,10 +38,10 @@
 </a>
 <g class="gsn_module_claim_h2 gsnelem gsngoal" id="node_g00004">
 <title>G00004</title>
-<path class="border" d="M340,154 L546,154 L546,214 L340,214 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="347" y="173">G00004</text>
-<text font-family="Arial" font-size="12" x="347" y="192">The risk of hazard H2 being </text>
-<text font-family="Arial" font-size="12" x="347" y="206"> caused by an attack is acceptable</text>
+<path class="border" d="M242,154 L644,154 L644,214 L242,214 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="249" y="173">G00004</text>
+<text font-family="Arial" font-size="12" x="249" y="192">The likelihood of an adversary being able to cause H2 is acceptable </text>
+<text font-family="Arial" font-size="12" x="249" y="206"> or H2 cannot be caused by an adversary.</text>
 </g>
 <g class="gsn_module_claim_h2 gsnelem gsnstgy" id="node_s00002">
 <title>S00002</title>
@@ -58,10 +58,10 @@
 </g>
 <g class="gsn_module_claim_h2 gsnelem gsngoal" id="node_g00005">
 <title>G00005</title>
-<path class="border" d="M312,360 L574,360 L574,420 L312,420 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="319" y="379">G00005</text>
-<text font-family="Arial" font-size="12" x="319" y="398">The risk of an adversary being able to cause</text>
-<text font-family="Arial" font-size="12" x="319" y="412"> Unsafe Control Actions is acceptable</text>
+<path class="border" d="M233,360 L653,360 L653,420 L233,420 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="240" y="379">G00005</text>
+<text font-family="Arial" font-size="12" x="240" y="398">All potential Unsafe Control Actions an adversary could use to cause H2</text>
+<text font-family="Arial" font-size="12" x="240" y="412"> have been identified and the likelihood is acceptable.</text>
 </g>
 <g class="gsn_module_claim_h2 gsnelem gsnstgy" id="node_s00003">
 <title>S00003</title>
@@ -80,15 +80,15 @@
 <title>G00006</title>
 <path class="border" d="M20,566 L434,566 L434,626 L20,626 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="27" y="585">G00006</text>
-<text font-family="Arial" font-size="12" x="27" y="604">Risk of attacker causing 'Clear MA provided with wrong zone.' (UCA6) </text>
-<text font-family="Arial" font-size="12" x="27" y="618"> leading to H2 is acceptable</text>
+<text font-family="Arial" font-size="12" x="27" y="604">Adversary cannot cause 'Clear MA provided with wrong zone.' (UCA6) </text>
+<text font-family="Arial" font-size="12" x="27" y="618"> or likelihood is acceptable</text>
 </g>
 <g class="gsn_module_claim_h2 gsnelem gsngoal" id="node_g00007">
 <title>G00007</title>
 <path class="border" d="M474,566 L844,566 L844,626 L474,626 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="481" y="585">G00007</text>
-<text font-family="Arial" font-size="12" x="481" y="604">Risk of attacker causing 'Clear MA provided too early.' (UCA7) </text>
-<text font-family="Arial" font-size="12" x="481" y="618"> leading to H2 is acceptable</text>
+<text font-family="Arial" font-size="12" x="481" y="604">Adversary cannot cause 'Clear MA provided too early.' (UCA7) </text>
+<text font-family="Arial" font-size="12" x="481" y="618"> or likelihood is acceptable</text>
 </g>
 <a href="claim-UCA6.svg#node_g00012">
 <g class="gsn_module_claim_uca6 gsnelem gsnawaygoal" id="node_g00012">
@@ -97,7 +97,7 @@
 <text font-family="Arial" font-size="12" font-weight="bold" x="36" y="685">G00012</text>
 <text font-family="Arial" font-size="12" x="36" y="704">Unsafe Control Action Clear MA provided with wrong zone. (UCA6) </text>
 <text font-family="Arial" font-size="12" x="36" y="718"> cannot be caused by an attack</text>
-<text font-family="Arial" font-size="12" x="36" y="732"> or the risk is acceptable</text>
+<text font-family="Arial" font-size="12" x="36" y="732"> or the likelihood is acceptable</text>
 <a href="claim-UCA6.svg#node_g00012">
 <path class="border" d="M29,746 h396 v28 h-396 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="63" y="767">claim-UCA6</text>
@@ -112,7 +112,7 @@
 <text font-family="Arial" font-size="12" font-weight="bold" x="490" y="685">G00016</text>
 <text font-family="Arial" font-size="12" x="490" y="704">Unsafe Control Action Clear MA provided too early. (UCA7) </text>
 <text font-family="Arial" font-size="12" x="490" y="718"> cannot be caused by an attack</text>
-<text font-family="Arial" font-size="12" x="490" y="732"> or the risk is acceptable</text>
+<text font-family="Arial" font-size="12" x="490" y="732"> or the likelihood is acceptable</text>
 <a href="claim-UCA7.svg#node_g00016">
 <path class="border" d="M483,746 h352 v28 h-352 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="517" y="767">claim-UCA7</text>
@@ -132,8 +132,8 @@
 <path class="gsnedge gsninspby" d="M443,516 C443,546,659,536,659,556" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <g class="gsnmodule" id="node_gsn_module">
 <title>Module Information</title>
-<text font-family="Arial" font-size="12" x="1022" y="835">Module: claim-H2</text>
-<text font-family="Arial" font-size="12" x="1022" y="849">Assurance Case Fragment for H2.</text>
-<text font-family="Arial" font-size="12" x="1022" y="863">Generated on: 2024-10-11T17:38:17.904827000Z</text>
+<text font-family="Arial" font-size="12" x="1021" y="835">Module: claim-H2</text>
+<text font-family="Arial" font-size="12" x="1021" y="849">Assurance Case Fragment for H2.</text>
+<text font-family="Arial" font-size="12" x="1021" y="863">Generated on: 2024-10-31T13:04:20.582397000Z</text>
 </g>
 </svg>

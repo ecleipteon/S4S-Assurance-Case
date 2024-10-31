@@ -5,28 +5,51 @@ module:
   - module: claim-UCA4
     develops:
       G00027:
-      - G00053
-G00053:
+      - G00052
+G00052:
   text: |-
     Risk of adversary being in the position of causing TS is acceptable 
      under the current system configuration
   supportedBy:
-  - S00035
-S00035:
+  - S00034
+S00034:
   text: Calculation
   supportedBy:
+  - G00053
   - G00054
-  - G00055
   inContextOf:
-  - A00018
-  - J00014
-A00018:
+  - A00016
+  - J00015
+A00016:
   text: Calc. strategy is Bayesian Inference
-J00014:
+J00015:
   text: Acceptable risk threashold is 0.0001
-G00054:
+G00053:
   text: |-
     Read (Approach) likelihood 
+     is 4.329021542399996e-05
+  supportedBy:
+  - S00035
+  rankIncrement: 1
+S00035:
+  text: Evidence Incorporation
+  supportedBy:
+  - Sn00007
+  rankIncrement: 1
+  inContextOf:
+  - A00017
+  - C00010
+A00017:
+  text: |-
+    Computer network is known. 
+     No 0-days vulnerabilities.
+C00010:
+  text: Security assessment carried out.
+Sn00007:
+  text: 'Attack Path Analysis (/path/to/ag). '
+G00054:
+  text: |-
+    Tamper (Approach) likelihood 
      is 4.329021542399996e-05
   supportedBy:
   - S00036
@@ -37,36 +60,13 @@ S00036:
   - Sn00008
   rankIncrement: 1
   inContextOf:
-  - A00019
+  - A00018
   - C00011
-A00019:
+A00018:
   text: |-
     Computer network is known. 
      No 0-days vulnerabilities.
 C00011:
   text: Security assessment carried out.
 Sn00008:
-  text: 'Attack Path Analysis (/path/to/ag). '
-G00055:
-  text: |-
-    Tamper (Approach) likelihood 
-     is 4.329021542399996e-05
-  supportedBy:
-  - S00037
-  rankIncrement: 1
-S00037:
-  text: Evidence Incorporation
-  supportedBy:
-  - Sn00009
-  rankIncrement: 1
-  inContextOf:
-  - A00020
-  - C00012
-A00020:
-  text: |-
-    Computer network is known. 
-     No 0-days vulnerabilities.
-C00012:
-  text: Security assessment carried out.
-Sn00009:
   text: 'Attack Path Analysis (/path/to/ag). '

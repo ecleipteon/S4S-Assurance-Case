@@ -10,7 +10,7 @@ G00016:
   text: |-
     Unsafe Control Action Clear MA provided too early. (UCA7) 
      cannot be caused by an attack
-     or the risk is acceptable
+     or the likelihood is acceptable
   supportedBy:
   - S00009
 S00009:
@@ -28,7 +28,7 @@ C00001:
 A00004:
   text: Model of CPS behaviour is correct
 G00017:
-  text: Could not find threat scenarios leading to UCA7.
+  text: There are no threat scenarios leading to UCA7.
   supportedBy:
   - Sn00000
 Sn00000:

@@ -28,7 +28,7 @@
 <path class="border" d="M291,86 V20 H727 V86" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="298" y="39">G00003</text>
 <text font-family="Arial" font-size="12" x="298" y="58">Adversary cannot cause 'Access to a zone is not mutually exclusive.' (H1) </text>
-<text font-family="Arial" font-size="12" x="298" y="72"> or the risk is acceptable.</text>
+<text font-family="Arial" font-size="12" x="298" y="72"> or the likelihood is acceptable.</text>
 <a href="Index-Collision.svg#node_g00003">
 <path class="border" d="M291,86 h437 v28 h-437 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="325" y="107">Index-Collision</text>
@@ -38,10 +38,10 @@
 </a>
 <g class="gsn_module_claim_h1 gsnelem gsngoal" id="node_g00008">
 <title>G00008</title>
-<path class="border" d="M406,154 L612,154 L612,214 L406,214 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="413" y="173">G00008</text>
-<text font-family="Arial" font-size="12" x="413" y="192">The risk of hazard H1 being </text>
-<text font-family="Arial" font-size="12" x="413" y="206"> caused by an attack is acceptable</text>
+<path class="border" d="M308,154 L710,154 L710,214 L308,214 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="315" y="173">G00008</text>
+<text font-family="Arial" font-size="12" x="315" y="192">The likelihood of an adversary being able to cause H1 is acceptable </text>
+<text font-family="Arial" font-size="12" x="315" y="206"> or H1 cannot be caused by an adversary.</text>
 </g>
 <g class="gsn_module_claim_h1 gsnelem gsnstgy" id="node_s00004">
 <title>S00004</title>
@@ -58,10 +58,10 @@
 </g>
 <g class="gsn_module_claim_h1 gsnelem gsngoal" id="node_g00009">
 <title>G00009</title>
-<path class="border" d="M378,360 L640,360 L640,420 L378,420 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="385" y="379">G00009</text>
-<text font-family="Arial" font-size="12" x="385" y="398">The risk of an adversary being able to cause</text>
-<text font-family="Arial" font-size="12" x="385" y="412"> Unsafe Control Actions is acceptable</text>
+<path class="border" d="M299,360 L719,360 L719,420 L299,420 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="306" y="379">G00009</text>
+<text font-family="Arial" font-size="12" x="306" y="398">All potential Unsafe Control Actions an adversary could use to cause H1</text>
+<text font-family="Arial" font-size="12" x="306" y="412"> have been identified and the likelihood is acceptable.</text>
 </g>
 <g class="gsn_module_claim_h1 gsnelem gsnstgy" id="node_s00005">
 <title>S00005</title>
@@ -80,15 +80,15 @@
 <title>G00010</title>
 <path class="border" d="M20,566 L450,566 L450,626 L20,626 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="27" y="585">G00010</text>
-<text font-family="Arial" font-size="12" x="27" y="604">Risk of attacker causing 'Request MA provided with wrong zone.' (UCA4) </text>
-<text font-family="Arial" font-size="12" x="27" y="618"> leading to H1 is acceptable</text>
+<text font-family="Arial" font-size="12" x="27" y="604">Adversary cannot cause 'Request MA provided with wrong zone.' (UCA4) </text>
+<text font-family="Arial" font-size="12" x="27" y="618"> or likelihood is acceptable</text>
 </g>
 <g class="gsn_module_claim_h1 gsnelem gsngoal" id="node_g00011">
 <title>G00011</title>
-<path class="border" d="M490,566 L1078,566 L1078,626 L490,626 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<path class="border" d="M490,566 L1076,566 L1076,626 L490,626 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="497" y="585">G00011</text>
-<text font-family="Arial" font-size="12" x="497" y="604">Risk of attacker causing 'Authorisation provided with wrong value 'allow' when not required.' (UCA1) </text>
-<text font-family="Arial" font-size="12" x="497" y="618"> leading to H1 is acceptable</text>
+<text font-family="Arial" font-size="12" x="497" y="604">Adversary cannot cause 'Authorisation provided with wrong value 'allow' when not required.' (UCA1) </text>
+<text font-family="Arial" font-size="12" x="497" y="618"> or likelihood is acceptable</text>
 </g>
 <a href="claim-UCA4.svg#node_g00018">
 <g class="gsn_module_claim_uca4 gsnelem gsnawaygoal" id="node_g00018">
@@ -97,7 +97,7 @@
 <text font-family="Arial" font-size="12" font-weight="bold" x="36" y="685">G00018</text>
 <text font-family="Arial" font-size="12" x="36" y="704">Unsafe Control Action Request MA provided with wrong zone. (UCA4) </text>
 <text font-family="Arial" font-size="12" x="36" y="718"> cannot be caused by an attack</text>
-<text font-family="Arial" font-size="12" x="36" y="732"> or the risk is acceptable</text>
+<text font-family="Arial" font-size="12" x="36" y="732"> or the likelihood is acceptable</text>
 <a href="claim-UCA4.svg#node_g00018">
 <path class="border" d="M29,746 h412 v28 h-412 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="63" y="767">claim-UCA4</text>
@@ -108,32 +108,32 @@
 <a href="claim-UCA1.svg#node_g00028">
 <g class="gsn_module_claim_uca1 gsnelem gsnawaygoal" id="node_g00028">
 <title>G00028</title>
-<path class="border" d="M500,746 V666 H1068 V746" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="507" y="685">G00028</text>
-<text font-family="Arial" font-size="12" x="507" y="704">Unsafe Control Action Authorisation provided with wrong value 'allow' when not required. (UCA1) </text>
-<text font-family="Arial" font-size="12" x="507" y="718"> cannot be caused by an attack</text>
-<text font-family="Arial" font-size="12" x="507" y="732"> or the risk is acceptable</text>
+<path class="border" d="M499,746 V666 H1067 V746" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="506" y="685">G00028</text>
+<text font-family="Arial" font-size="12" x="506" y="704">Unsafe Control Action Authorisation provided with wrong value 'allow' when not required. (UCA1) </text>
+<text font-family="Arial" font-size="12" x="506" y="718"> cannot be caused by an attack</text>
+<text font-family="Arial" font-size="12" x="506" y="732"> or the likelihood is acceptable</text>
 <a href="claim-UCA1.svg#node_g00028">
-<path class="border" d="M500,746 h569 v28 h-569 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="534" y="767">claim-UCA1</text>
+<path class="border" d="M499,746 h569 v28 h-569 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="533" y="767">claim-UCA1</text>
 </a>
-<use href="#module_icon" x="507" y="753"/>
+<use href="#module_icon" x="506" y="753"/>
 </g>
 </a>
 <path class="gsnedge gsninspby" d="M509,114 C509,144,509,124,509,144" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M509,214 C509,244,509,234,509,254" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M509,420 C509,450,509,440,509,460" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M235,626 C235,656,235,636,235,656" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M784,626 C784,656,784,636,784,656" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M783,626 C783,656,783,636,783,656" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M576,287 C606,287,586,287,606,287" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M509,310 C509,340,509,330,509,350" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M576,493 C606,493,586,493,606,493" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M509,516 C509,546,235,536,235,556" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M509,516 C509,546,784,536,784,556" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M509,516 C509,546,783,536,783,556" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <g class="gsnmodule" id="node_gsn_module">
 <title>Module Information</title>
-<text font-family="Arial" font-size="12" x="1088" y="835">Module: claim-H1</text>
-<text font-family="Arial" font-size="12" x="1088" y="849">Assurance Case Fragment for H1.</text>
-<text font-family="Arial" font-size="12" x="1088" y="863">Generated on: 2024-10-11T17:38:17.874929000Z</text>
+<text font-family="Arial" font-size="12" x="1087" y="835">Module: claim-H1</text>
+<text font-family="Arial" font-size="12" x="1087" y="849">Assurance Case Fragment for H1.</text>
+<text font-family="Arial" font-size="12" x="1087" y="863">Generated on: 2024-10-31T13:04:20.558832000Z</text>
 </g>
 </svg>

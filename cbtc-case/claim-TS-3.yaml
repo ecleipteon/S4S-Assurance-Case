@@ -5,44 +5,44 @@ module:
   - module: claim-UCA1
     develops:
       G00033:
-      - G00056
-G00056:
+      - G00055
+G00055:
   text: |-
     Risk of adversary being in the position of causing TS is acceptable 
      under the current system configuration
   supportedBy:
-  - S00038
-S00038:
+  - S00037
+S00037:
   text: Calculation
   supportedBy:
-  - G00057
+  - G00056
   inContextOf:
-  - A00021
-  - J00015
-A00021:
+  - A00019
+  - J00016
+A00019:
   text: Calc. strategy is Bayesian Inference
-J00015:
+J00016:
   text: Acceptable risk threashold is 0.0001
-G00057:
+G00056:
   text: |-
     Spoof (Clear) likelihood 
      is 4.329021542399996e-05
   supportedBy:
-  - S00039
+  - S00038
   rankIncrement: 1
-S00039:
+S00038:
   text: Evidence Incorporation
   supportedBy:
-  - Sn00010
+  - Sn00009
   rankIncrement: 1
   inContextOf:
-  - A00022
-  - C00013
-A00022:
+  - A00020
+  - C00012
+A00020:
   text: |-
     Computer network is known. 
      No 0-days vulnerabilities.
-C00013:
+C00012:
   text: Security assessment carried out.
-Sn00010:
+Sn00009:
   text: 'Attack Path Analysis (/path/to/ag). '

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="gsndiagram" viewBox="0 0 1548 918" xmlns="http://www.w3.org/2000/svg">
+<svg class="gsndiagram" viewBox="0 0 1475 1061" xmlns="http://www.w3.org/2000/svg">
 <symbol id="module_icon">
 <rect fill="lightgrey" height="5" stroke="black" stroke-width="1" width="10" x="0" y="0"/>
 <rect fill="lightgrey" height="10" stroke="black" stroke-width="1" width="20" x="0" y="5"/>
@@ -25,128 +25,90 @@
 <a href="claim-UCA4.svg#node_g00025">
 <g class="gsn_module_claim_uca4 gsnelem gsnawaygoal" id="node_g00025">
 <title>G00025</title>
-<path class="border" d="M603,86 V20 H813 V86" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="610" y="39">G00025</text>
-<text font-family="Arial" font-size="12" x="610" y="58">Scenario TS-8 is not exploitable </text>
-<text font-family="Arial" font-size="12" x="610" y="72"> in the current system configuration</text>
+<path class="border" d="M238,100 V20 H456 V100" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="245" y="39">G00025</text>
+<text font-family="Arial" font-size="12" x="245" y="58">Scenario TS-8 is not exploitable </text>
+<text font-family="Arial" font-size="12" x="245" y="72"> in the current system configuration </text>
+<text font-family="Arial" font-size="12" x="245" y="86"> as per attack path analysis</text>
 <a href="claim-UCA4.svg#node_g00025">
-<path class="border" d="M603,86 h211 v28 h-211 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="637" y="107">claim-UCA4</text>
+<path class="border" d="M238,100 h218 v28 h-218 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="272" y="121">claim-UCA4</text>
 </a>
-<use href="#module_icon" x="610" y="93"/>
+<use href="#module_icon" x="245" y="107"/>
 </g>
 </a>
 <g class="gsn_module_claim_ts_8 gsnelem gsngoal" id="node_g00050">
 <title>G00050</title>
-<path class="border" d="M510,154 L906,154 L906,214 L510,214 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="517" y="173">G00050</text>
-<text font-family="Arial" font-size="12" x="517" y="192">Risk of adversary being in the position of causing TS is acceptable </text>
-<text font-family="Arial" font-size="12" x="517" y="206"> under the current system configuration</text>
-</g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnjust" id="node_j00013">
-<title>J00013</title>
-<path class="border" d="M299,287 a151,33,0,1,0,303,0 a151,33,0,1,0,-303,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="349" y="278">J00013</text>
-<text font-family="Arial" font-size="12" x="349" y="297">Acceptable risk threashold is 0.0001</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="596" y="315">J</text>
+<path class="border" d="M139,168 L555,168 L555,214 L139,214 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="146" y="187">G00050</text>
+<text font-family="Arial" font-size="12" x="146" y="206">Scenario TS-8 is not exploitable under the current system configuration</text>
 </g>
 <g class="gsn_module_claim_ts_8 gsnelem gsnstgy" id="node_s00032">
 <title>S00032</title>
-<path class="border" d="M648,264 L782,264 L768,310 L634,310 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="656" y="283">S00032</text>
-<text font-family="Arial" font-size="12" x="652" y="302">Calculation</text>
+<path class="border" d="M287,264 L421,264 L407,310 L273,310 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="295" y="283">S00032</text>
+<text font-family="Arial" font-size="12" x="291" y="302">Substitution</text>
 </g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnasmp" id="node_a00015">
-<title>A00015</title>
-<path class="border" d="M815,287 a151,33,0,1,0,302,0 a151,33,0,1,0,-302,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="866" y="278">A00015</text>
-<text font-family="Arial" font-size="12" x="866" y="297">Calc. strategy is Bayesian Inference</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="1112" y="315">A</text>
+<g class="gsn_module_claim_ts_8 gsnelem gsnjust" id="node_j00013">
+<title>J00013</title>
+<path class="border" d="M454,287 a340,33,0,1,0,681,0 a340,33,0,1,0,-681,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="558" y="278">J00013</text>
+<text font-family="Arial" font-size="12" x="558" y="297">At least one attack step not exploitable is sufficient to prevent exploitability of TS-8</text>
+<text font-family="Arial" font-size="12" font-weight="bold" x="1129" y="315">J</text>
 </g>
 <g class="gsn_module_claim_ts_8 gsnelem gsngoal" id="node_g00051">
 <title>G00051</title>
-<path class="border" d="M258,360 L436,360 L436,420 L258,420 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="265" y="379">G00051</text>
-<text font-family="Arial" font-size="12" x="265" y="398">Spoof (GNSS Loc) likelihood </text>
-<text font-family="Arial" font-size="12" x="265" y="412"> is 0.0</text>
-</g>
-<g class="gsn_module_claim_ts_8 gsnelem gsngoal" id="node_g00052">
-<title>G00052</title>
-<path class="border" d="M976,360 L1162,360 L1162,420 L976,420 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="983" y="379">G00052</text>
-<text font-family="Arial" font-size="12" x="983" y="398">Disrupt (RTK 2 Loc) likelihood </text>
-<text font-family="Arial" font-size="12" x="983" y="412"> is 0.0</text>
+<path class="border" d="M202,360 L492,360 L492,406 L202,406 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="209" y="379">G00051</text>
+<text font-family="Arial" font-size="12" x="209" y="398">At least one attack step in TS-8 is not exploitable</text>
 </g>
 <g class="gsn_module_claim_ts_8 gsnelem gsnctxt" id="node_c00009">
 <title>C00009</title>
-<path class="border" d="M30,480 L228,480 C238,480,238,526,228,526 L30,526 C20,526,20,480,30,480" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="37" y="499">C00009</text>
-<text font-family="Arial" font-size="12" x="37" y="518">Security assessment carried out.</text>
+<path class="border" d="M30,519 L228,519 C238,519,238,565,228,565 L30,565 C20,565,20,519,30,519" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="37" y="538">C00009</text>
+<text font-family="Arial" font-size="12" x="37" y="557">Security assessment carried out.</text>
 </g>
 <g class="gsn_module_claim_ts_8 gsnelem gsnstgy" id="node_s00033">
 <title>S00033</title>
-<path class="border" d="M285,480 L423,480 L409,526 L271,526 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="292" y="499">S00033</text>
-<text font-family="Arial" font-size="12" x="288" y="518">Evidence Incorporation</text>
+<path class="border" d="M285,519 L423,519 L409,565 L271,565 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="292" y="538">S00033</text>
+<text font-family="Arial" font-size="12" x="288" y="557">Evidence Incorporation</text>
 </g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnasmp" id="node_a00016">
-<title>A00016</title>
-<path class="border" d="M456,503 a123,43,0,1,0,247,0 a123,43,0,1,0,-247,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="498" y="487">A00016</text>
-<text font-family="Arial" font-size="12" x="498" y="506">Computer network is known. </text>
-<text font-family="Arial" font-size="12" x="498" y="520"> No 0-days vulnerabilities.</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="697" y="541">A</text>
+<g class="gsn_module_claim_ts_8 gsnelem gsnasmp" id="node_a00015">
+<title>A00015</title>
+<path class="border" d="M552,489 a123,43,0,1,0,247,0 a123,43,0,1,0,-247,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="594" y="473">A00015</text>
+<text font-family="Arial" font-size="12" x="594" y="492">Computer network is known. </text>
+<text font-family="Arial" font-size="12" x="594" y="506"> No 0-days vulnerabilities.</text>
+<text font-family="Arial" font-size="12" font-weight="bold" x="793" y="527">A</text>
 </g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnctxt" id="node_c00010">
-<title>C00010</title>
-<path class="border" d="M752,480 L950,480 C960,480,960,526,950,526 L752,526 C742,526,742,480,752,480" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="759" y="499">C00010</text>
-<text font-family="Arial" font-size="12" x="759" y="518">Security assessment carried out.</text>
-</g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnstgy" id="node_s00034">
-<title>S00034</title>
-<path class="border" d="M1007,480 L1145,480 L1131,526 L993,526 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="1014" y="499">S00034</text>
-<text font-family="Arial" font-size="12" x="1010" y="518">Evidence Incorporation</text>
-</g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnasmp" id="node_a00017">
-<title>A00017</title>
-<path class="border" d="M1178,503 a123,43,0,1,0,247,0 a123,43,0,1,0,-247,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="1220" y="487">A00017</text>
-<text font-family="Arial" font-size="12" x="1220" y="506">Computer network is known. </text>
-<text font-family="Arial" font-size="12" x="1220" y="520"> No 0-days vulnerabilities.</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="1419" y="541">A</text>
+<g class="gsn_module_claim_ts_8 gsnelem gsnjust" id="node_j00014">
+<title>J00014</title>
+<path class="border" d="M456,605 a219,33,0,1,0,438,0 a219,33,0,1,0,-438,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="526" y="596">J00014</text>
+<text font-family="Arial" font-size="12" x="526" y="615">At least one attack step not exploitable to prevent TS</text>
+<text font-family="Arial" font-size="12" font-weight="bold" x="889" y="633">J</text>
 </g>
 <g class="gsn_module_claim_ts_8 gsnelem gsnsltn" id="node_sn00006">
 <title>Sn00006</title>
-<path class="border" d="M234,699 a113,113,0,1,0,226,0 a113,113,0,1,0,-226,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="249" y="690">Sn00006</text>
-<text font-family="Arial" font-size="12" x="249" y="709">Attack Path Analysis (/path/to/ag). </text>
+<path class="border" d="M209,816 a138,138,0,1,0,276,0 a138,138,0,1,0,-276,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="225" y="800">Sn00006</text>
+<text font-family="Arial" font-size="12" x="225" y="819">Disrupt (RTK 2 Loc) Not exploitable on AG </text>
+<text font-family="Arial" font-size="12" x="225" y="833">(/path/to/ag). </text>
 </g>
-<g class="gsn_module_claim_ts_8 gsnelem gsnsltn" id="node_sn00007">
-<title>Sn00007</title>
-<path class="border" d="M956,699 a113,113,0,1,0,226,0 a113,113,0,1,0,-226,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="971" y="690">Sn00007</text>
-<text font-family="Arial" font-size="12" x="971" y="709">Attack Path Analysis (/path/to/ag). </text>
-</g>
-<path class="gsnedge gsninspby" d="M708,114 C708,144,708,124,708,144" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M708,214 C708,244,708,234,708,254" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M347,420 C347,450,347,450,347,470" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M1069,420 C1069,450,1069,450,1069,470" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M775,287 C805,287,785,287,805,287" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M641,287 C611,287,631,287,611,287" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M708,310 C708,340,347,330,347,350" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M708,310 C708,340,1069,330,1069,350" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M416,503 C446,503,426,503,446,503" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M278,503 C248,503,268,503,248,503" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M347,526 C347,556,347,556,347,576" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M1138,503 C1168,503,1148,503,1168,503" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M1000,503 C970,503,990,503,970,503" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M1069,526 C1069,556,1069,556,1069,576" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M347,128 C347,158,347,138,347,158" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M347,214 C347,244,347,234,347,254" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M347,406 C347,436,347,489,347,509" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M414,287 C444,287,424,287,444,287" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M347,310 C347,340,347,330,347,350" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M416,542 C446,542,522,489,542,489" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M278,542 C248,542,268,542,248,542" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M347,565 C347,595,675,542,675,562" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M347,565 C347,595,347,648,347,668" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <g class="gsnmodule" id="node_gsn_module">
 <title>Module Information</title>
-<text font-family="Arial" font-size="12" x="1254" y="870">Module: claim-TS-8</text>
-<text font-family="Arial" font-size="12" x="1254" y="884">Assurance Case Fragment for TS-8.</text>
-<text font-family="Arial" font-size="12" x="1254" y="898">Generated on: 2024-10-11T17:38:18.157739000Z</text>
+<text font-family="Arial" font-size="12" x="1180" y="1013">Module: claim-TS-8</text>
+<text font-family="Arial" font-size="12" x="1180" y="1027">Assurance Case Fragment for TS-8.</text>
+<text font-family="Arial" font-size="12" x="1180" y="1041">Generated on: 2024-10-31T13:04:20.759735000Z</text>
 </g>
 </svg>

@@ -10,7 +10,7 @@ G00012:
   text: |-
     Unsafe Control Action Clear MA provided with wrong zone. (UCA6) 
      cannot be caused by an attack
-     or the risk is acceptable
+     or the likelihood is acceptable
   supportedBy:
   - S00006
 S00006:
@@ -28,7 +28,9 @@ C00000:
 A00003:
   text: Model of CPS behaviour is correct
 G00013:
-  text: All threat scenarios leading to UCA6 are mitigated
+  text: |-
+    All potential threat scenarios leading to UCA6 
+     have been identified and are mitigated
   supportedBy:
   - S00007
 S00007:
@@ -51,5 +53,6 @@ G00015:
   text: |-
     Threat scenario is exploitable within 
      acceptable risk (Computed likelihood = 4.329021542399996e-05) 
-     under the current system configuration
+     under the current system configuration 
+     as per attack path analysis
   undeveloped: true

@@ -8,8 +8,8 @@ module:
       - G00008
 G00008:
   text: |-
-    The risk of hazard H1 being 
-     caused by an attack is acceptable
+    The likelihood of an adversary being able to cause H1 is acceptable 
+     or H1 cannot be caused by an adversary.
   supportedBy:
   - S00004
 S00004:
@@ -22,8 +22,8 @@ J00002:
   text: In STPA hazards are caused by Unsafe Control Actions (UCA)
 G00009:
   text: |-
-    The risk of an adversary being able to cause
-     Unsafe Control Actions is acceptable
+    All potential Unsafe Control Actions an adversary could use to cause H1
+     have been identified and the likelihood is acceptable.
   supportedBy:
   - S00005
 S00005:
@@ -37,11 +37,11 @@ A00002:
   text: STPA finds all UCA
 G00010:
   text: |-
-    Risk of attacker causing 'Request MA provided with wrong zone.' (UCA4) 
-     leading to H1 is acceptable
+    Adversary cannot cause 'Request MA provided with wrong zone.' (UCA4) 
+     or likelihood is acceptable
   undeveloped: true
 G00011:
   text: |-
-    Risk of attacker causing 'Authorisation provided with wrong value 'allow' when not required.' (UCA1) 
-     leading to H1 is acceptable
+    Adversary cannot cause 'Authorisation provided with wrong value 'allow' when not required.' (UCA1) 
+     or likelihood is acceptable
   undeveloped: true

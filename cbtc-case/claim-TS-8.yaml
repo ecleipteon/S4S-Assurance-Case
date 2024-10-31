@@ -7,27 +7,20 @@ module:
       G00025:
       - G00050
 G00050:
-  text: |-
-    Risk of adversary being in the position of causing TS is acceptable 
-     under the current system configuration
+  text: Scenario TS-8 is not exploitable under the current system configuration
   supportedBy:
   - S00032
 S00032:
-  text: Calculation
+  text: Substitution
   supportedBy:
   - G00051
-  - G00052
   inContextOf:
-  - A00015
   - J00013
-A00015:
-  text: Calc. strategy is Bayesian Inference
 J00013:
-  text: Acceptable risk threashold is 0.0001
+  text: At least one attack step not exploitable is sufficient to prevent exploitability
+    of TS-8
 G00051:
-  text: |-
-    Spoof (GNSS Loc) likelihood 
-     is 0.0
+  text: At least one attack step in TS-8 is not exploitable
   supportedBy:
   - S00033
   rankIncrement: 1
@@ -35,38 +28,20 @@ S00033:
   text: Evidence Incorporation
   supportedBy:
   - Sn00006
-  rankIncrement: 1
   inContextOf:
-  - A00016
+  - A00015
   - C00009
-A00016:
+  - J00014
+  rankIncrement: 1
+Sn00006:
+  text: |-
+    Disrupt (RTK 2 Loc) Not exploitable on AG 
+    (/path/to/ag). 
+J00014:
+  text: At least one attack step not exploitable to prevent TS
+A00015:
   text: |-
     Computer network is known. 
      No 0-days vulnerabilities.
 C00009:
   text: Security assessment carried out.
-Sn00006:
-  text: 'Attack Path Analysis (/path/to/ag). '
-G00052:
-  text: |-
-    Disrupt (RTK 2 Loc) likelihood 
-     is 0.0
-  supportedBy:
-  - S00034
-  rankIncrement: 1
-S00034:
-  text: Evidence Incorporation
-  supportedBy:
-  - Sn00007
-  rankIncrement: 1
-  inContextOf:
-  - A00017
-  - C00010
-A00017:
-  text: |-
-    Computer network is known. 
-     No 0-days vulnerabilities.
-C00010:
-  text: Security assessment carried out.
-Sn00007:
-  text: 'Attack Path Analysis (/path/to/ag). '

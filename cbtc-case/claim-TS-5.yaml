@@ -5,44 +5,43 @@ module:
   - module: claim-UCA1
     develops:
       G00037:
-      - G00061
-G00061:
-  text: |-
-    Risk of adversary being in the position of causing TS is acceptable 
-     under the current system configuration
+      - G00059
+G00059:
+  text: Scenario TS-5 is not exploitable under the current system configuration
   supportedBy:
-  - S00043
-S00043:
-  text: Calculation
+  - S00041
+S00041:
+  text: Substitution
   supportedBy:
-  - G00062
+  - G00060
   inContextOf:
-  - A00026
-  - J00017
-A00026:
-  text: Calc. strategy is Bayesian Inference
-J00017:
-  text: Acceptable risk threashold is 0.0001
-G00062:
-  text: |-
-    Tamper (LU.GNSSPosition) likelihood 
-     is 0.0
+  - J00019
+J00019:
+  text: At least one attack step not exploitable is sufficient to prevent exploitability
+    of TS-5
+G00060:
+  text: At least one attack step in TS-5 is not exploitable
   supportedBy:
-  - S00044
+  - S00042
   rankIncrement: 1
-S00044:
+S00042:
   text: Evidence Incorporation
   supportedBy:
-  - Sn00013
-  rankIncrement: 1
+  - Sn00011
   inContextOf:
-  - A00027
-  - C00016
-A00027:
+  - A00022
+  - C00014
+  - J00020
+  rankIncrement: 1
+Sn00011:
+  text: |-
+    Tamper (LU.GNSSPosition) Not exploitable on AG 
+    (/path/to/ag). 
+J00020:
+  text: At least one attack step not exploitable to prevent TS
+A00022:
   text: |-
     Computer network is known. 
      No 0-days vulnerabilities.
-C00016:
+C00014:
   text: Security assessment carried out.
-Sn00013:
-  text: 'Attack Path Analysis (/path/to/ag). '

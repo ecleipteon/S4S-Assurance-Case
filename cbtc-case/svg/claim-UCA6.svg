@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg class="gsndiagram" viewBox="0 0 1132 1164" xmlns="http://www.w3.org/2000/svg">
+<svg class="gsndiagram" viewBox="0 0 1132 1192" xmlns="http://www.w3.org/2000/svg">
 <symbol id="module_icon">
 <rect fill="lightgrey" height="5" stroke="black" stroke-width="1" width="10" x="0" y="0"/>
 <rect fill="lightgrey" height="10" stroke="black" stroke-width="1" width="20" x="0" y="5"/>
@@ -27,8 +27,8 @@
 <title>G00006</title>
 <path class="border" d="M104,86 V20 H518 V86" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="111" y="39">G00006</text>
-<text font-family="Arial" font-size="12" x="111" y="58">Risk of attacker causing 'Clear MA provided with wrong zone.' (UCA6) </text>
-<text font-family="Arial" font-size="12" x="111" y="72"> leading to H2 is acceptable</text>
+<text font-family="Arial" font-size="12" x="111" y="58">Adversary cannot cause 'Clear MA provided with wrong zone.' (UCA6) </text>
+<text font-family="Arial" font-size="12" x="111" y="72"> or likelihood is acceptable</text>
 <a href="claim-H2.svg#node_g00006">
 <path class="border" d="M104,86 h414 v28 h-414 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="138" y="107">claim-H2</text>
@@ -42,7 +42,7 @@
 <text font-family="Arial" font-size="12" font-weight="bold" x="120" y="173">G00012</text>
 <text font-family="Arial" font-size="12" x="120" y="192">Unsafe Control Action Clear MA provided with wrong zone. (UCA6) </text>
 <text font-family="Arial" font-size="12" x="120" y="206"> cannot be caused by an attack</text>
-<text font-family="Arial" font-size="12" x="120" y="220"> or the risk is acceptable</text>
+<text font-family="Arial" font-size="12" x="120" y="220"> or the likelihood is acceptable</text>
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsnctxt" id="node_c00000">
 <title>C00000</title>
@@ -72,73 +72,75 @@
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsngoal" id="node_g00013">
 <title>G00013</title>
-<path class="border" d="M164,482 L458,482 L458,528 L164,528 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="171" y="501">G00013</text>
-<text font-family="Arial" font-size="12" x="171" y="520">All threat scenarios leading to UCA6 are mitigated</text>
+<path class="border" d="M173,482 L449,482 L449,542 L173,542 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="180" y="501">G00013</text>
+<text font-family="Arial" font-size="12" x="180" y="520">All potential threat scenarios leading to UCA6 </text>
+<text font-family="Arial" font-size="12" x="180" y="534"> have been identified and are mitigated</text>
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsnstgy" id="node_s00007">
 <title>S00007</title>
-<path class="border" d="M251,578 L385,578 L371,624 L237,624 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="259" y="597">S00007</text>
-<text font-family="Arial" font-size="12" x="255" y="616">Decomposition</text>
+<path class="border" d="M251,592 L385,592 L371,638 L237,638 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="259" y="611">S00007</text>
+<text font-family="Arial" font-size="12" x="255" y="630">Decomposition</text>
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsnjust" id="node_j00004">
 <title>J00004</title>
-<path class="border" d="M418,601 a238,33,0,1,0,476,0 a238,33,0,1,0,-476,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="494" y="592">J00004</text>
-<text font-family="Arial" font-size="12" x="494" y="611">Each TS is a different way the adversary can cause UCA6</text>
-<text font-family="Arial" font-size="12" font-weight="bold" x="889" y="629">J</text>
+<path class="border" d="M418,615 a238,33,0,1,0,476,0 a238,33,0,1,0,-476,0 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="494" y="606">J00004</text>
+<text font-family="Arial" font-size="12" x="494" y="625">Each TS is a different way the adversary can cause UCA6</text>
+<text font-family="Arial" font-size="12" font-weight="bold" x="889" y="643">J</text>
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsngoal" id="node_g00014">
 <title>G00014</title>
-<path class="border" d="M255,674 L367,674 L367,720 L255,720 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="262" y="693">G00014</text>
-<text font-family="Arial" font-size="12" x="262" y="712">TS-10 is mitigated</text>
+<path class="border" d="M255,688 L367,688 L367,734 L255,734 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="262" y="707">G00014</text>
+<text font-family="Arial" font-size="12" x="262" y="726">TS-10 is mitigated</text>
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsnstgy" id="node_s00008">
 <title>S00008</title>
-<path class="border" d="M251,760 L385,760 L371,806 L237,806 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="259" y="779">S00008</text>
-<text font-family="Arial" font-size="12" x="255" y="798">Substitution</text>
+<path class="border" d="M251,774 L385,774 L371,820 L237,820 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="259" y="793">S00008</text>
+<text font-family="Arial" font-size="12" x="255" y="812">Substitution</text>
 </g>
 <g class="gsn_module_claim_uca6 gsnelem gsngoal" id="node_g00015">
 <title>G00015</title>
-<path class="border" d="M116,846 L506,846 L506,920 L116,920 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="123" y="865">G00015</text>
-<text font-family="Arial" font-size="12" x="123" y="884">Threat scenario is exploitable within </text>
-<text font-family="Arial" font-size="12" x="123" y="898"> acceptable risk (Computed likelihood = 4.329021542399996e-05) </text>
-<text font-family="Arial" font-size="12" x="123" y="912"> under the current system configuration</text>
+<path class="border" d="M116,860 L506,860 L506,948 L116,948 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="123" y="879">G00015</text>
+<text font-family="Arial" font-size="12" x="123" y="898">Threat scenario is exploitable within </text>
+<text font-family="Arial" font-size="12" x="123" y="912"> acceptable risk (Computed likelihood = 4.329021542399996e-05) </text>
+<text font-family="Arial" font-size="12" x="123" y="926"> under the current system configuration </text>
+<text font-family="Arial" font-size="12" x="123" y="940"> as per attack path analysis</text>
 </g>
 <a href="claim-TS-10.svg#node_g00042">
 <g class="gsn_module_claim_ts_10 gsnelem gsnawaygoal" id="node_g00042">
 <title>G00042</title>
-<path class="border" d="M113,1026 V960 H509 V1026" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="120" y="979">G00042</text>
-<text font-family="Arial" font-size="12" x="120" y="998">Risk of adversary being in the position of causing TS is acceptable </text>
-<text font-family="Arial" font-size="12" x="120" y="1012"> under the current system configuration</text>
+<path class="border" d="M113,1054 V988 H509 V1054" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="120" y="1007">G00042</text>
+<text font-family="Arial" font-size="12" x="120" y="1026">Risk of adversary being in the position of causing TS is acceptable </text>
+<text font-family="Arial" font-size="12" x="120" y="1040"> under the current system configuration</text>
 <a href="claim-TS-10.svg#node_g00042">
-<path class="border" d="M113,1026 h397 v28 h-397 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="147" y="1047">claim-TS-10</text>
+<path class="border" d="M113,1054 h397 v28 h-397 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="147" y="1075">claim-TS-10</text>
 </a>
-<use href="#module_icon" x="120" y="1033"/>
+<use href="#module_icon" x="120" y="1061"/>
 </g>
 </a>
 <path class="gsnedge gsninspby" d="M311,114 C311,144,311,124,311,144" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M311,228 C311,258,311,302,311,322" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M311,528 C311,558,311,548,311,568" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M311,720 C311,750,311,730,311,750" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M311,920 C311,950,311,930,311,950" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M311,542 C311,572,311,562,311,582" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M311,734 C311,764,311,744,311,764" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M311,948 C311,978,311,958,311,978" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M378,355 C408,355,460,301,480,301" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M244,355 C214,355,234,355,214,355" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninctxt" d="M378,355 C408,355,388,408,408,408" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
 <path class="gsnedge gsninspby" d="M311,378 C311,408,311,452,311,472" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninctxt" d="M378,601 C408,601,388,601,408,601" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M311,624 C311,654,311,644,311,664" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
-<path class="gsnedge gsninspby" d="M311,806 C311,836,311,816,311,836" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninctxt" d="M378,615 C408,615,388,615,408,615" fill-opacity="0" marker-end="url(#incontextof_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M311,638 C311,668,311,658,311,678" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
+<path class="gsnedge gsninspby" d="M311,820 C311,850,311,830,311,850" fill-opacity="0" marker-end="url(#supportedby_arrow)" stroke="black" stroke-width="1"/>
 <g class="gsnmodule" id="node_gsn_module">
 <title>Module Information</title>
-<text font-family="Arial" font-size="12" x="686" y="1116">Module: claim-UCA6</text>
-<text font-family="Arial" font-size="12" x="686" y="1130">Assurance Case Fragment for Clear MA provided with wrong zone. (UCA6).</text>
-<text font-family="Arial" font-size="12" x="686" y="1144">Generated on: 2024-10-11T17:38:18.306031000Z</text>
+<text font-family="Arial" font-size="12" x="686" y="1144">Module: claim-UCA6</text>
+<text font-family="Arial" font-size="12" x="686" y="1158">Assurance Case Fragment for Clear MA provided with wrong zone. (UCA6).</text>
+<text font-family="Arial" font-size="12" x="686" y="1172">Generated on: 2024-10-31T13:04:20.875275000Z</text>
 </g>
 </svg>

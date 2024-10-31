@@ -8,8 +8,8 @@ module:
       - G00004
 G00004:
   text: |-
-    The risk of hazard H2 being 
-     caused by an attack is acceptable
+    The likelihood of an adversary being able to cause H2 is acceptable 
+     or H2 cannot be caused by an adversary.
   supportedBy:
   - S00002
 S00002:
@@ -22,8 +22,8 @@ J00001:
   text: In STPA hazards are caused by Unsafe Control Actions (UCA)
 G00005:
   text: |-
-    The risk of an adversary being able to cause
-     Unsafe Control Actions is acceptable
+    All potential Unsafe Control Actions an adversary could use to cause H2
+     have been identified and the likelihood is acceptable.
   supportedBy:
   - S00003
 S00003:
@@ -37,11 +37,11 @@ A00001:
   text: STPA finds all UCA
 G00006:
   text: |-
-    Risk of attacker causing 'Clear MA provided with wrong zone.' (UCA6) 
-     leading to H2 is acceptable
+    Adversary cannot cause 'Clear MA provided with wrong zone.' (UCA6) 
+     or likelihood is acceptable
   undeveloped: true
 G00007:
   text: |-
-    Risk of attacker causing 'Clear MA provided too early.' (UCA7) 
-     leading to H2 is acceptable
+    Adversary cannot cause 'Clear MA provided too early.' (UCA7) 
+     or likelihood is acceptable
   undeveloped: true

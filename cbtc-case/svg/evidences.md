@@ -25,13 +25,14 @@ List of Evidences
 
     claim-TS-9
 
- 7. Sn00006: Attack Path Analysis (/path/to/ag). 
+ 7. Sn00006: Disrupt (RTK 2 Loc) Not exploitable on AG 
+             (/path/to/ag). 
 
     claim-TS-8
 
  8. Sn00007: Attack Path Analysis (/path/to/ag). 
 
-    claim-TS-8
+    claim-TS-6
 
  9. Sn00008: Attack Path Analysis (/path/to/ag). 
 
@@ -39,37 +40,31 @@ List of Evidences
 
 10. Sn00009: Attack Path Analysis (/path/to/ag). 
 
-    claim-TS-6
-
-11. Sn00010: Attack Path Analysis (/path/to/ag). 
-
     claim-TS-3
 
-12. Sn00011: Attack Path Analysis (/path/to/ag). 
+11. Sn00010: Disrupt (RTK 2 Loc) Not exploitable on AG 
+             (/path/to/ag). 
 
     claim-TS-2
 
-13. Sn00012: Attack Path Analysis (/path/to/ag). 
-
-    claim-TS-2
-
-14. Sn00013: Attack Path Analysis (/path/to/ag). 
+12. Sn00011: Tamper (LU.GNSSPosition) Not exploitable on AG 
+             (/path/to/ag). 
 
     claim-TS-5
 
+13. Sn00012: Attack Path Analysis (/path/to/ag). 
+
+    claim-TS-1
+
+14. Sn00013: Attack Path Analysis (/path/to/ag). 
+
+    claim-TS-1
+
 15. Sn00014: Attack Path Analysis (/path/to/ag). 
-
-    claim-TS-1
-
-16. Sn00015: Attack Path Analysis (/path/to/ag). 
-
-    claim-TS-1
-
-17. Sn00016: Attack Path Analysis (/path/to/ag). 
 
     claim-TS-4
 
-18. Sn00017: Attack Path Analysis (/path/to/ag). 
+16. Sn00015: Attack Path Analysis (/path/to/ag). 
 
     claim-TS-4
 

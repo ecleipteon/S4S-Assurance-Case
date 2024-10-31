@@ -27,10 +27,10 @@
 <title>G00007</title>
 <path class="border" d="M126,86 V20 H496 V86" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="133" y="39">G00007</text>
-<text font-family="Arial" font-size="12" x="133" y="58">Risk of attacker causing 'Clear MA provided too early.' (UCA7) </text>
-<text font-family="Arial" font-size="12" x="133" y="72"> leading to H2 is acceptable</text>
+<text font-family="Arial" font-size="12" x="133" y="58">Adversary cannot cause 'Clear MA provided too early.' (UCA7) </text>
+<text font-family="Arial" font-size="12" x="133" y="72"> or likelihood is acceptable</text>
 <a href="claim-H2.svg#node_g00007">
-<path class="border" d="M126,86 h371 v28 h-371 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<path class="border" d="M126,86 h370 v28 h-370 z" fill-opacity="0" stroke="black" stroke-width="1"/>
 <text font-family="Arial" font-size="12" font-weight="bold" x="160" y="107">claim-H2</text>
 </a>
 <use href="#module_icon" x="133" y="93"/>
@@ -42,7 +42,7 @@
 <text font-family="Arial" font-size="12" font-weight="bold" x="142" y="173">G00016</text>
 <text font-family="Arial" font-size="12" x="142" y="192">Unsafe Control Action Clear MA provided too early. (UCA7) </text>
 <text font-family="Arial" font-size="12" x="142" y="206"> cannot be caused by an attack</text>
-<text font-family="Arial" font-size="12" x="142" y="220"> or the risk is acceptable</text>
+<text font-family="Arial" font-size="12" x="142" y="220"> or the likelihood is acceptable</text>
 </g>
 <g class="gsn_module_claim_uca7 gsnelem gsnctxt" id="node_c00001">
 <title>C00001</title>
@@ -72,9 +72,9 @@
 </g>
 <g class="gsn_module_claim_uca7 gsnelem gsngoal" id="node_g00017">
 <title>G00017</title>
-<path class="border" d="M167,482 L455,482 L455,528 L167,528 z" fill-opacity="0" stroke="black" stroke-width="1"/>
-<text font-family="Arial" font-size="12" font-weight="bold" x="174" y="501">G00017</text>
-<text font-family="Arial" font-size="12" x="174" y="520">Could not find threat scenarios leading to UCA7.</text>
+<path class="border" d="M170,482 L452,482 L452,528 L170,528 z" fill-opacity="0" stroke="black" stroke-width="1"/>
+<text font-family="Arial" font-size="12" font-weight="bold" x="177" y="501">G00017</text>
+<text font-family="Arial" font-size="12" x="177" y="520">There are no threat scenarios leading to UCA7.</text>
 </g>
 <g class="gsn_module_claim_uca7 gsnelem gsnsltn" id="node_sn00000">
 <title>Sn00000</title>
@@ -93,6 +93,6 @@
 <title>Module Information</title>
 <text font-family="Arial" font-size="12" x="663" y="965">Module: claim-UCA7</text>
 <text font-family="Arial" font-size="12" x="663" y="979">Assurance Case Fragment for Clear MA provided too early. (UCA7).</text>
-<text font-family="Arial" font-size="12" x="663" y="993">Generated on: 2024-10-11T17:38:18.331618000Z</text>
+<text font-family="Arial" font-size="12" x="663" y="993">Generated on: 2024-10-31T13:04:20.895294000Z</text>
 </g>
 </svg>

@@ -3,22 +3,24 @@ module:
   brief: Assurance Case Fragment for Collision.
 G00000:
   text: |-
-    The system is safe from attacks aimed at causing an accident of type Collision. 
-     The risk of accident Collision being provoked by an attack is acceptable.
+    The system can operate within acceptable risk with respect to the specific accident Collision being caused by an adversary.
   supportedBy:
   - S00000
 S00000:
-  text: Concretion.
+  text: Substitution.
   supportedBy:
   - G00001
   inContextOf:
   - J00000
 J00000:
-  text: Disambiguation. Referring to STAMP
+  text: |-
+    Disambiguation. 
+     Referring to STAMP.
 G00001:
   text: |-
-    The risk of safety-critical attacks aimed at causing hazards related to
-     an accident of type Collision is acceptable.
+    All potential hazards leading to Collision
+                                                     have been identified with STAMP and the likelihood 
+                                                     of an attacker being able to cause them is acceptable.
   supportedBy:
   - S00001
 S00001:
@@ -33,10 +35,10 @@ A00000:
 G00002:
   text: |-
     Adversary cannot cause 'Failure to track zone status.' (H2) 
-     or the risk is acceptable.
+     or the likelihood is acceptable.
   undeveloped: true
 G00003:
   text: |-
     Adversary cannot cause 'Access to a zone is not mutually exclusive.' (H1) 
-     or the risk is acceptable.
+     or the likelihood is acceptable.
   undeveloped: true
